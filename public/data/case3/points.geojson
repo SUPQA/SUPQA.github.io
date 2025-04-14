@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 331125,
+        "name": "上海电力实业有限公司",
+        "wgs84_lng": 121.477,
+        "wgs84_lat": 31.2403,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 2,
+        "sim": 237.7957
+      },
+      "geometry": { "type": "Point", "coordinates": [121.477, 31.2403] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 331132,
+        "name": "上海凤凰电力设备有限公司",
+        "wgs84_lng": 121.4751,
+        "wgs84_lat": 31.2394,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 1,
+        "sim": 227.1719
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4751, 31.2394] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 140455,
+        "name": "自助开户取卡机",
+        "wgs84_lng": 121.48,
+        "wgs84_lat": 31.2407,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 2,
+        "sim": 224.2524
+      },
+      "geometry": { "type": "Point", "coordinates": [121.48, 31.2407] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 331134,
+        "name": "自助开户取卡机",
+        "wgs84_lng": 121.48,
+        "wgs84_lat": 31.2407,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 2,
+        "sim": 224.2524
+      },
+      "geometry": { "type": "Point", "coordinates": [121.48, 31.2407] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 195118,
+        "name": "百草园",
+        "wgs84_lng": 121.4769,
+        "wgs84_lat": 31.2379,
+        "class": "attractions",
+        "category": "tourist attraction",
+        "taz_count": 2,
+        "sim": 218.0519
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4769, 31.2379] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 195122,
+        "name": "夜游黄浦江",
+        "wgs84_lng": 121.4765,
+        "wgs84_lat": 31.2379,
+        "class": "attractions",
+        "category": "tourist attraction",
+        "taz_count": 2,
+        "sim": 217.4095
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4765, 31.2379] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 195340,
+        "name": "瞿晏亭",
+        "wgs84_lng": 121.4789,
+        "wgs84_lat": 31.2388,
+        "class": "attractions",
+        "category": "tourist attraction",
+        "taz_count": 2,
+        "sim": 217.2612
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4789, 31.2388] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 195119,
+        "name": "萌萌塔",
+        "wgs84_lng": 121.4785,
+        "wgs84_lat": 31.2382,
+        "class": "attractions",
+        "category": "tourist attraction",
+        "taz_count": 2,
+        "sim": 214.5368
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4785, 31.2382] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 341871,
+        "name": "中国电力财务有限公司",
+        "wgs84_lng": 121.4773,
+        "wgs84_lat": 31.2346,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 2,
+        "sim": 206.5675
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4773, 31.2346] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 341889,
+        "name": "上海圣汇人才服务有限公司",
+        "wgs84_lng": 121.4722,
+        "wgs84_lat": 31.2349,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 3,
+        "sim": 198.6731
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4722, 31.2349] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 153105,
+        "name": "来福士广场-收费处",
+        "wgs84_lng": 121.4722,
+        "wgs84_lat": 31.2346,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 3,
+        "sim": 193.1361
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4722, 31.2346] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 341888,
+        "name": "来福士广场-收费处",
+        "wgs84_lng": 121.4722,
+        "wgs84_lat": 31.2346,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 3,
+        "sim": 193.1361
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4722, 31.2346] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 331097,
+        "name": "两网融合回收服务点",
+        "wgs84_lng": 121.4776,
+        "wgs84_lat": 31.2419,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 2,
+        "sim": 190.7053
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4776, 31.2419] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 155743,
+        "name": "停车场收费处(中信泰富广场店)",
+        "wgs84_lng": 121.4513,
+        "wgs84_lat": 31.2307,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 3,
+        "sim": 189.7646
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4513, 31.2307] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 155738,
+        "name": "香港广场-收费处",
+        "wgs84_lng": 121.4701,
+        "wgs84_lat": 31.226,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 5,
+        "sim": 185.9742
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4701, 31.226] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 341835,
+        "name": "香港广场-收费处",
+        "wgs84_lng": 121.4701,
+        "wgs84_lat": 31.226,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 5,
+        "sim": 185.9742
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4701, 31.226] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 331396,
+        "name": "上海燃气信息经营公司",
+        "wgs84_lng": 121.4689,
+        "wgs84_lat": 31.2405,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 4,
+        "sim": 184.4274
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4689, 31.2405] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 153935,
+        "name": "燃气账务中心",
+        "wgs84_lng": 121.469,
+        "wgs84_lat": 31.2406,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 4,
+        "sim": 184.1705
+      },
+      "geometry": { "type": "Point", "coordinates": [121.469, 31.2406] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 331389,
+        "name": "燃气账务中心",
+        "wgs84_lng": 121.469,
+        "wgs84_lat": 31.2406,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 4,
+        "sim": 184.1705
+      },
+      "geometry": { "type": "Point", "coordinates": [121.469, 31.2406] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Unnamed: 0": 331398,
+        "name": "上海燃气灶",
+        "wgs84_lng": 121.4688,
+        "wgs84_lat": 31.2407,
+        "class": "utilities",
+        "category": "life service",
+        "taz_count": 4,
+        "sim": 184.1705
+      },
+      "geometry": { "type": "Point", "coordinates": [121.4688, 31.2407] }
+    }
+  ]
+}

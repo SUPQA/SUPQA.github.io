@@ -1,0 +1,73 @@
+{
+  "name": "Answer",
+  "key": "0-0",
+  "value": 1,
+  "children": [
+    {
+      "name": "convenience",
+      "key": "1-0",
+      "value": 0.23069911741853158,
+      "children": [
+        {
+          "name": "residential",
+          "key": "2-0-0",
+          "value": 0.3938
+        },
+        {
+          "name": "Travel & attractions",
+          "key": "2-0-1",
+          "value": 0.3534
+        },
+        {
+          "name": "Transportation",
+          "key": "2-0-2",
+          "value": 0.7074
+        }
+      ]
+    },
+    {
+      "name": "education",
+      "key": "1-1",
+      "value": 0.23083483853259765,
+      "children": [
+        {
+          "name": "Sports",
+          "key": "2-1-0",
+          "value": 0.1701
+        },
+        {
+          "name": "Education",
+          "key": "2-1-1",
+          "value": 0.5842
+        },
+        {
+          "name": "Government & public infrustructure",
+          "key": "2-1-2",
+          "value": 0.1983
+        }
+      ]
+    },
+    {
+      "name": "elder friendliness",
+      "key": "1-2",
+      "value": 0.18299260466545444,
+      "children": [
+        {
+          "name": "Residential",
+          "key": "2-2-0",
+          "value": 0.5593
+        },
+        {
+          "name": "Life services",
+          "key": "2-2-1",
+          "value": 0.5534
+        },
+        {
+          "name": "Education",
+          "key": "2-2-2",
+          "value": 0.9201
+        }
+      ]
+    }
+  ]
+}

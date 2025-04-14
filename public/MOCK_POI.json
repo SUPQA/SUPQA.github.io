@@ -1,0 +1,6032 @@
+[
+  {
+    "lat": 31.235822181989,
+    "lng": 121.4401712377366,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市文化创意产业推进领导小组办公室",
+    "pointIdx": 100988
+  },
+  {
+    "lat": 31.2367656099873,
+    "lng": 121.4491696519682,
+    "category": "healthcare",
+    "class": "centers for disease control and prevention",
+    "color": "#aaaaaa",
+    "name": "静安区牙病防治所(江宁分所)",
+    "pointIdx": 63348
+  },
+  {
+    "lat": 31.2368713632929,
+    "lng": 121.4491556810623,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "和一大厦",
+    "pointIdx": 159510
+  },
+  {
+    "lat": 31.2367590838397,
+    "lng": 121.4491336739281,
+    "category": "life services",
+    "class": "maintenance point",
+    "color": "#199cd5",
+    "name": "上海臻美护肤售后服务中心(江宁店)",
+    "pointIdx": 82778
+  },
+  {
+    "lat": 31.2368668993887,
+    "lng": 121.4491536578671,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "琪航健身工作室(静安江宁路店)",
+    "pointIdx": 52138
+  },
+  {
+    "lat": 31.2367013561926,
+    "lng": 121.4492186081965,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "石猪英语留学(静安中心)",
+    "pointIdx": 28362
+  },
+  {
+    "lat": 31.2363045749066,
+    "lng": 121.4492904919365,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "应急掩蔽场所",
+    "pointIdx": 103487
+  },
+  {
+    "lat": 31.2364123425727,
+    "lng": 121.4494793814238,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "库什超市",
+    "pointIdx": 6298
+  },
+  {
+    "lat": 31.2362128183959,
+    "lng": 121.4493044678694,
+    "category": "life services",
+    "class": "photo studio",
+    "color": "#199cd5",
+    "name": "纪凡摄影GIVEN STUDIO",
+    "pointIdx": 71840
+  },
+  {
+    "lat": 31.2361471464729,
+    "lng": 121.4497251634207,
+    "category": "education",
+    "class": "research institutions",
+    "color": "#b4d8e7",
+    "name": "JonStudio婚纱研究所",
+    "pointIdx": 29696
+  },
+  {
+    "lat": 31.2372144790277,
+    "lng": 121.4475355873249,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "艺海管理部",
+    "pointIdx": 101860
+  },
+  {
+    "lat": 31.2373086218314,
+    "lng": 121.4486330860982,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "静安区运动健身中心",
+    "pointIdx": 54485
+  },
+  {
+    "lat": 31.2372246222668,
+    "lng": 121.447546585227,
+    "category": "businesses & manufacturing",
+    "class": "news publishing",
+    "color": "#73a5e8",
+    "name": "第一财经日报-广告中心",
+    "pointIdx": 164024
+  },
+  {
+    "lat": 31.2373829246941,
+    "lng": 121.4463309643047,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "康宁大楼",
+    "pointIdx": 161706
+  },
+  {
+    "lat": 31.2376424445976,
+    "lng": 121.4463810140889,
+    "category": "retail & shopping",
+    "class": "household building materials",
+    "color": "#44b4e6",
+    "name": "设计共和(江宁路店)",
+    "pointIdx": 10084
+  },
+  {
+    "lat": 31.2374486006706,
+    "lng": 121.4479934445048,
+    "category": "education",
+    "class": "art group",
+    "color": "#b4d8e7",
+    "name": "上海市东方弘韵少儿艺术团(康定路)",
+    "pointIdx": 23652
+  },
+  {
+    "lat": 31.2379159718187,
+    "lng": 121.4461061249729,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区江宁路街道三星坊居民委员会",
+    "pointIdx": 140214
+  },
+  {
+    "lat": 31.2379429011521,
+    "lng": 121.446101132358,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市静安区地方志办公室",
+    "pointIdx": 101865
+  },
+  {
+    "lat": 31.2381308899578,
+    "lng": 121.4459402001423,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(江宁路二店)",
+    "pointIdx": 6391
+  },
+  {
+    "lat": 31.2384244662863,
+    "lng": 121.4446872752679,
+    "category": "travel & attractions",
+    "class": "express inn",
+    "color": "#fdb38d",
+    "name": "汉庭酒店(上海江宁路新店)",
+    "pointIdx": 63225
+  },
+  {
+    "lat": 31.2366316524544,
+    "lng": 121.4455328990403,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "时代中学-排球馆",
+    "pointIdx": 54218
+  },
+  {
+    "lat": 31.2360474413782,
+    "lng": 121.4486558425639,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "宝业静安紫苑",
+    "pointIdx": 133591
+  },
+  {
+    "lat": 31.2359761128019,
+    "lng": 121.4486308460721,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "爱泊满不动产",
+    "pointIdx": 167549
+  },
+  {
+    "lat": 31.2362436089621,
+    "lng": 121.4456018290792,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "陕西北路新闸路",
+    "pointIdx": 33903
+  },
+  {
+    "lat": 31.2367449951988,
+    "lng": 121.4445848730492,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "康华楼",
+    "pointIdx": 119879
+  },
+  {
+    "lat": 31.236496283274,
+    "lng": 121.4443207849595,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市科学技术委员会",
+    "pointIdx": 107653
+  },
+  {
+    "lat": 31.2368681413292,
+    "lng": 121.4469139734036,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "脊骨健造室",
+    "pointIdx": 53660
+  },
+  {
+    "lat": 31.2367386869398,
+    "lng": 121.4490377309628,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "三友录音棚",
+    "pointIdx": 196437
+  },
+  {
+    "lat": 31.2364471269901,
+    "lng": 121.4446788310535,
+    "category": "life services",
+    "class": "maintenance point",
+    "color": "#199cd5",
+    "name": "维达车行",
+    "pointIdx": 82403
+  },
+  {
+    "lat": 31.236835710431,
+    "lng": 121.4479113547327,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "FANCL艺术中心",
+    "pointIdx": 28594
+  },
+  {
+    "lat": 31.2362760379051,
+    "lng": 121.4468626320813,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海海关驻邮局办事处",
+    "pointIdx": 108648
+  },
+  {
+    "lat": 31.235951564523,
+    "lng": 121.4488038355342,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "REAL YOGA瑜伽&普拉提(静安店)",
+    "pointIdx": 53124
+  },
+  {
+    "lat": 31.2364048289789,
+    "lng": 121.4449238474993,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "福铭远东商务楼",
+    "pointIdx": 161451
+  },
+  {
+    "lat": 31.2363485364473,
+    "lng": 121.4468256539548,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "Panda竹子舞蹈艺术中心",
+    "pointIdx": 25609
+  },
+  {
+    "lat": 31.2367437287714,
+    "lng": 121.4490407300201,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "上海市静安公证处(办公场所)",
+    "pointIdx": 98089
+  },
+  {
+    "lat": 31.2364861674098,
+    "lng": 121.444866857078,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "Delimuses(康定路店)",
+    "pointIdx": 146675
+  },
+  {
+    "lat": 31.2361077108246,
+    "lng": 121.4469875701862,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "武定路江宁路",
+    "pointIdx": 38250
+  },
+  {
+    "lat": 31.2369214167636,
+    "lng": 121.4454359568601,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市电梯驾驶员安全技术第三考核站",
+    "pointIdx": 105889
+  },
+  {
+    "lat": 31.2362975408561,
+    "lng": 121.4452508439496,
+    "category": "healthcare",
+    "class": "specialist hospital",
+    "color": "#aaaaaa",
+    "name": "上海中佑肛肠医院",
+    "pointIdx": 63746
+  },
+  {
+    "lat": 31.2366711810025,
+    "lng": 121.4474974946279,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "蜀大侠(江宁路店)",
+    "pointIdx": 157624
+  },
+  {
+    "lat": 31.2364563948511,
+    "lng": 121.4447038355964,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "兴达图文(康定路店)",
+    "pointIdx": 83471
+  },
+  {
+    "lat": 31.2361510759627,
+    "lng": 121.445466819187,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "陕西北路729弄小区",
+    "pointIdx": 119780
+  },
+  {
+    "lat": 31.2363203179431,
+    "lng": 121.4468076539796,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "中国邮政速递物流南京西路营业部(上海市分公司)",
+    "pointIdx": 79096
+  },
+  {
+    "lat": 31.2361332387935,
+    "lng": 121.4477093196417,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(武定店)",
+    "pointIdx": 3827
+  },
+  {
+    "lat": 31.2368855083671,
+    "lng": 121.4450019410562,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "易捷便利店(陕西北路店)",
+    "pointIdx": 6024
+  },
+  {
+    "lat": 31.2362168241157,
+    "lng": 121.4467656478988,
+    "category": "life services",
+    "class": "post office",
+    "color": "#199cd5",
+    "name": "中国邮政(上海市邮政局包裹服务局大宗包裹收寄处)",
+    "pointIdx": 71280
+  },
+  {
+    "lat": 31.2361043929941,
+    "lng": 121.4464896935742,
+    "category": "education",
+    "class": "middle school",
+    "color": "#b4d8e7",
+    "name": "时代中学",
+    "pointIdx": 24619
+  },
+  {
+    "lat": 31.2359394025105,
+    "lng": 121.4466446347668,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "时代中心",
+    "pointIdx": 162000
+  },
+  {
+    "lat": 31.2364810385192,
+    "lng": 121.4454748739204,
+    "category": "travel & attractions",
+    "class": "express inn",
+    "color": "#fdb38d",
+    "name": "Zsmart智尚酒店(梅龙镇广场店)",
+    "pointIdx": 61960
+  },
+  {
+    "lat": 31.2361586974372,
+    "lng": 121.4486768476848,
+    "category": "government & public infrastructure",
+    "class": "foreign institutions",
+    "color": "#d7c1d1",
+    "name": "老挝驻上海总领事馆",
+    "pointIdx": 91275
+  },
+  {
+    "lat": 31.2368820939889,
+    "lng": 121.4460009095681,
+    "category": "life services",
+    "class": "lottery point of sale",
+    "color": "#199cd5",
+    "name": "中国体育彩票(康定路店)",
+    "pointIdx": 70353
+  },
+  {
+    "lat": 31.2364087499502,
+    "lng": 121.4449168476468,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "酒侍串说",
+    "pointIdx": 158895
+  },
+  {
+    "lat": 31.2369434909981,
+    "lng": 121.4478983814654,
+    "category": "social & entertainment",
+    "class": "theater",
+    "color": "#CA8C00",
+    "name": "先锋剧院",
+    "pointIdx": 117098
+  },
+  {
+    "lat": 31.2370295085754,
+    "lng": 121.4464478674261,
+    "category": "life services",
+    "class": "maintenance point",
+    "color": "#199cd5",
+    "name": "红妹专业修鞋老店",
+    "pointIdx": 81556
+  },
+  {
+    "lat": 31.2369600118612,
+    "lng": 121.4476424931424,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "艺海剧院-停车场",
+    "pointIdx": 49230
+  },
+  {
+    "lat": 31.2369521870243,
+    "lng": 121.4469727235732,
+    "category": "life services",
+    "class": "photo studio",
+    "color": "#199cd5",
+    "name": "伊甸园Baby儿童主题摄影",
+    "pointIdx": 71439
+  },
+  {
+    "lat": 31.2369661687499,
+    "lng": 121.4469717266386,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "上海八尚有限公司",
+    "pointIdx": 187855
+  },
+  {
+    "lat": 31.2369441301665,
+    "lng": 121.4461708987451,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "忆昀食品店",
+    "pointIdx": 2220
+  },
+  {
+    "lat": 31.2370076733166,
+    "lng": 121.4463798761504,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "极速蚂蚁数码快印广告印刷",
+    "pointIdx": 83557
+  },
+  {
+    "lat": 31.2369664674543,
+    "lng": 121.4476764806464,
+    "category": "travel & attractions",
+    "class": "ticket office",
+    "color": "#fdb38d",
+    "name": "艺海剧院-售票处",
+    "pointIdx": 56863
+  },
+  {
+    "lat": 31.2369661687499,
+    "lng": 121.4469717266386,
+    "category": "government & public infrastructure",
+    "class": "utilities",
+    "color": "#d7c1d1",
+    "name": "上海方尔达人才服务有限公司",
+    "pointIdx": 92439
+  },
+  {
+    "lat": 31.2370471515296,
+    "lng": 121.4485930539873,
+    "category": "social & entertainment",
+    "class": "game place",
+    "color": "#CA8C00",
+    "name": "MINIMARS亲子会所(静安江宁路店)",
+    "pointIdx": 118081
+  },
+  {
+    "lat": 31.2371915736142,
+    "lng": 121.4479114261284,
+    "category": "government & public infrastructure",
+    "class": "social groups",
+    "color": "#d7c1d1",
+    "name": "上海中外文化艺术交流协会",
+    "pointIdx": 93117
+  },
+  {
+    "lat": 31.2372114935362,
+    "lng": 121.4475365863099,
+    "category": "government & public infrastructure",
+    "class": "broadcasting",
+    "color": "#d7c1d1",
+    "name": "上海东华广播电视网络公司",
+    "pointIdx": 90939
+  },
+  {
+    "lat": 31.2370807815513,
+    "lng": 121.4488469142996,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "公共厕所",
+    "pointIdx": 89718
+  },
+  {
+    "lat": 31.2371317433179,
+    "lng": 121.4477754729214,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "艺海大厦",
+    "pointIdx": 159511
+  },
+  {
+    "lat": 31.2371937693503,
+    "lng": 121.447406631204,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "罗森便利店(交通大厦店)",
+    "pointIdx": 6818
+  },
+  {
+    "lat": 31.2370653185816,
+    "lng": 121.4442498800307,
+    "category": "healthcare",
+    "class": "specialist hospital",
+    "color": "#aaaaaa",
+    "name": "上海市眼病防治中心(康定路院区)",
+    "pointIdx": 63809
+  },
+  {
+    "lat": 31.2362148049081,
+    "lng": 121.4436755779599,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "瑞远地产",
+    "pointIdx": 164884
+  },
+  {
+    "lat": 31.2360792355358,
+    "lng": 121.4438135971555,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "苏宁小店(康定2店折扣店)",
+    "pointIdx": 2541
+  },
+  {
+    "lat": 31.2360096189992,
+    "lng": 121.4436485373485,
+    "category": "life services",
+    "class": "housekeeping",
+    "color": "#199cd5",
+    "name": "康定水站",
+    "pointIdx": 74524
+  },
+  {
+    "lat": 31.2366635659725,
+    "lng": 121.4423770939767,
+    "category": "life services",
+    "class": "housekeeping",
+    "color": "#199cd5",
+    "name": "百添自营月嫂中心(琅悦静安店)",
+    "pointIdx": 74328
+  },
+  {
+    "lat": 31.2369556945404,
+    "lng": 121.4418098017289,
+    "category": "healthcare",
+    "class": "physical examination institutions",
+    "color": "#aaaaaa",
+    "name": "美年大健康(上海美锦门诊部)",
+    "pointIdx": 63687
+  },
+  {
+    "lat": 31.2360128936072,
+    "lng": 121.4430523169944,
+    "category": "life services",
+    "class": "lottery point of sale",
+    "color": "#199cd5",
+    "name": "中国福利彩票中国体育彩票(西康路店)",
+    "pointIdx": 70540
+  },
+  {
+    "lat": 31.2359777260927,
+    "lng": 121.4435565028903,
+    "category": "life services",
+    "class": "pet service",
+    "color": "#199cd5",
+    "name": "哈贝宠物乐园",
+    "pointIdx": 75597
+  },
+  {
+    "lat": 31.2370771013795,
+    "lng": 121.44193207166,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "R-FITNESS健身工作室(同乐坊店)",
+    "pointIdx": 53894
+  },
+  {
+    "lat": 31.2366157407711,
+    "lng": 121.442395095172,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "联谊·西康大厦",
+    "pointIdx": 119720
+  },
+  {
+    "lat": 31.237090730739,
+    "lng": 121.4419429169033,
+    "category": "social & entertainment",
+    "class": "game place",
+    "color": "#CA8C00",
+    "name": "魔方剧情密室(静安店)",
+    "pointIdx": 118506
+  },
+  {
+    "lat": 31.2370883451954,
+    "lng": 121.441895885879,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "华通大厦",
+    "pointIdx": 159505
+  },
+  {
+    "lat": 31.2365150587083,
+    "lng": 121.441709649846,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "江宁路街道联宝里居民区综治工作站",
+    "pointIdx": 107779
+  },
+  {
+    "lat": 31.2362127141506,
+    "lng": 121.4416515577067,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区江宁路街道联宝里居民委员会",
+    "pointIdx": 142570
+  },
+  {
+    "lat": 31.2372637033171,
+    "lng": 121.4413175117718,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "佳歆房产(第0104直营店)",
+    "pointIdx": 166543
+  },
+  {
+    "lat": 31.2368629793789,
+    "lng": 121.4402122412077,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "fitbox健身工作室",
+    "pointIdx": 53234
+  },
+  {
+    "lat": 31.2367349661662,
+    "lng": 121.440781963424,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "君御豪庭",
+    "pointIdx": 120025
+  },
+  {
+    "lat": 31.2371153449906,
+    "lng": 121.4398010819419,
+    "category": "government & public infrastructure",
+    "class": "partisan groups",
+    "color": "#d7c1d1",
+    "name": "上海静安区龙英助善志愿者服务社",
+    "pointIdx": 92879
+  },
+  {
+    "lat": 31.2360417086413,
+    "lng": 121.4394545006176,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "800秀会议中心",
+    "pointIdx": 109905
+  },
+  {
+    "lat": 31.2370811654081,
+    "lng": 121.4394306621016,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安区精神文明建设委员会办公室",
+    "pointIdx": 100911
+  },
+  {
+    "lat": 31.2365994349988,
+    "lng": 121.439268377966,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "东安公寓",
+    "pointIdx": 120360
+  },
+  {
+    "lat": 31.2371089942198,
+    "lng": 121.4392244259391,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "金昌大厦-写字楼",
+    "pointIdx": 160866
+  },
+  {
+    "lat": 31.2372252190795,
+    "lng": 121.4396209081064,
+    "category": "government & public infrastructure",
+    "class": "welfare agency",
+    "color": "#d7c1d1",
+    "name": "颐吉养老",
+    "pointIdx": 95219
+  },
+  {
+    "lat": 31.2374039100201,
+    "lng": 121.440069426055,
+    "category": "life services",
+    "class": "pet service",
+    "color": "#199cd5",
+    "name": "PETKIT小佩宠物(西康店)",
+    "pointIdx": 75510
+  },
+  {
+    "lat": 31.237491056028,
+    "lng": 121.4397771385995,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "静安鼎鑫佳园",
+    "pointIdx": 120246
+  },
+  {
+    "lat": 31.2377985840691,
+    "lng": 121.4436138799531,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "静安区司法局(江宁路司法所)",
+    "pointIdx": 96918
+  },
+  {
+    "lat": 31.2376937560041,
+    "lng": 121.4422122179044,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "昌平路439号公房",
+    "pointIdx": 119648
+  },
+  {
+    "lat": 31.2378698744775,
+    "lng": 121.4429116260589,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "平安大厦",
+    "pointIdx": 161045
+  },
+  {
+    "lat": 31.2376118278235,
+    "lng": 121.4418569761066,
+    "category": "travel & attractions",
+    "class": "express inn",
+    "color": "#fdb38d",
+    "name": "莫泰酒店(昌平路地铁站店)",
+    "pointIdx": 62973
+  },
+  {
+    "lat": 31.2380517320805,
+    "lng": 121.4417420068254,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "行家写字楼",
+    "pointIdx": 160350
+  },
+  {
+    "lat": 31.2377469454543,
+    "lng": 121.4423533120899,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "智虹图文",
+    "pointIdx": 84084
+  },
+  {
+    "lat": 31.237453536316,
+    "lng": 121.4435957932455,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "陕西北路835弄",
+    "pointIdx": 130537
+  },
+  {
+    "lat": 31.2377711788613,
+    "lng": 121.4423813336539,
+    "category": "life services",
+    "class": "laundry",
+    "color": "#199cd5",
+    "name": "福奈特洗衣(昌平路店)",
+    "pointIdx": 73260
+  },
+  {
+    "lat": 31.2381382631341,
+    "lng": 121.4434919251474,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "好德便利店(西昌店)",
+    "pointIdx": 3179
+  },
+  {
+    "lat": 31.2375463195325,
+    "lng": 121.4416668315192,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "马路边边串串香火锅(昌平路店)",
+    "pointIdx": 153722
+  },
+  {
+    "lat": 31.2383298981049,
+    "lng": 121.44415916186,
+    "category": "life services",
+    "class": "laundry",
+    "color": "#199cd5",
+    "name": "芬尚洗衣云联盟娜斯皇后(昌平店)",
+    "pointIdx": 72436
+  },
+  {
+    "lat": 31.2383598767896,
+    "lng": 121.44415816975,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "ANKEN Alley安垦里弄",
+    "pointIdx": 134520
+  },
+  {
+    "lat": 31.2384021944142,
+    "lng": 121.442967789889,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安区志愿者服务基地",
+    "pointIdx": 103840
+  },
+  {
+    "lat": 31.2383478393098,
+    "lng": 121.4428177063996,
+    "category": "government & public infrastructure",
+    "class": "welfare agency",
+    "color": "#d7c1d1",
+    "name": "静安区江宁路街道优抚之家",
+    "pointIdx": 95946
+  },
+  {
+    "lat": 31.2299396025151,
+    "lng": 121.4511110741653,
+    "category": "government & public infrastructure",
+    "class": "foreign institutions",
+    "color": "#d7c1d1",
+    "name": "澳大利亚上海领事馆",
+    "pointIdx": 91263
+  },
+  {
+    "lat": 31.2313216544162,
+    "lng": 121.4509690128237,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "OPENLANGUAGE开讲英语",
+    "pointIdx": 27209
+  },
+  {
+    "lat": 31.2320779691195,
+    "lng": 121.45131862599,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "THE PILLOW白日梦",
+    "pointIdx": 146562
+  },
+  {
+    "lat": 31.2320626574785,
+    "lng": 121.4512377037163,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "保安室",
+    "pointIdx": 96258
+  },
+  {
+    "lat": 31.2322456194514,
+    "lng": 121.4519070317307,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "肥仔文(南京西路店)",
+    "pointIdx": 153233
+  },
+  {
+    "lat": 31.2321669228092,
+    "lng": 121.4517432034549,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "温可铮旧居",
+    "pointIdx": 58863
+  },
+  {
+    "lat": 31.2331545299115,
+    "lng": 121.4517461699524,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "上海雅思机考中心",
+    "pointIdx": 27781
+  },
+  {
+    "lat": 31.2323925849405,
+    "lng": 121.4517891453122,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(北京西路二店)",
+    "pointIdx": 4859
+  },
+  {
+    "lat": 31.2331813188713,
+    "lng": 121.4517341819747,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "通江投资集团",
+    "pointIdx": 190461
+  },
+  {
+    "lat": 31.2323110236461,
+    "lng": 121.4515114265671,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "雷世图文数码快印",
+    "pointIdx": 83833
+  },
+  {
+    "lat": 31.2331359318302,
+    "lng": 121.4514674470599,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "嘉地中心",
+    "pointIdx": 161364
+  },
+  {
+    "lat": 31.2332126371852,
+    "lng": 121.4517541616805,
+    "category": "travel & attractions",
+    "class": "star hotels",
+    "color": "#fdb38d",
+    "name": "上海静安瑞吉酒店",
+    "pointIdx": 61309
+  },
+  {
+    "lat": 31.2331368001676,
+    "lng": 121.4514594548461,
+    "category": "government & public infrastructure",
+    "class": "foreign institutions",
+    "color": "#d7c1d1",
+    "name": "英国驻沪领事馆",
+    "pointIdx": 91274
+  },
+  {
+    "lat": 31.2323445407426,
+    "lng": 121.4516043332809,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "石门二路社区达庆熙志愿者工作服务中心",
+    "pointIdx": 105744
+  },
+  {
+    "lat": 31.2331296720784,
+    "lng": 121.451451462667,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "亚历山大麦昆",
+    "pointIdx": 16930
+  },
+  {
+    "lat": 31.234418756461,
+    "lng": 121.4510608697718,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "恒升(静安)商务中心",
+    "pointIdx": 160136
+  },
+  {
+    "lat": 31.2311156671455,
+    "lng": 121.451087926214,
+    "category": "life services",
+    "class": "photo studio",
+    "color": "#199cd5",
+    "name": "照相馆",
+    "pointIdx": 72273
+  },
+  {
+    "lat": 31.2305131957079,
+    "lng": 121.4511029898491,
+    "category": "government & public infrastructure",
+    "class": "broadcasting",
+    "color": "#d7c1d1",
+    "name": "每日电视台上海支局",
+    "pointIdx": 90949
+  },
+  {
+    "lat": 31.2305764269362,
+    "lng": 121.4513037926168,
+    "category": "travel & attractions",
+    "class": "ticket office",
+    "color": "#fdb38d",
+    "name": "新西兰航空公司(上海办事处)",
+    "pointIdx": 56777
+  },
+  {
+    "lat": 31.2307066581834,
+    "lng": 121.4513217575252,
+    "category": "government & public infrastructure",
+    "class": "utilities",
+    "color": "#d7c1d1",
+    "name": "停车场收费处(中信泰富广场店)",
+    "pointIdx": 92229
+  },
+  {
+    "lat": 31.2301533854008,
+    "lng": 121.4511040444034,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "万通教育集团(中信泰富广场店)",
+    "pointIdx": 26544
+  },
+  {
+    "lat": 31.2300100371365,
+    "lng": 121.4511400351341,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "中信泰富广场-商务楼",
+    "pointIdx": 159327
+  },
+  {
+    "lat": 31.2305131957079,
+    "lng": 121.4511029898491,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "阿斯利康中国会议中心",
+    "pointIdx": 109692
+  },
+  {
+    "lat": 31.2306190184365,
+    "lng": 121.4511569248212,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "中信泰富广场-停车场",
+    "pointIdx": 50892
+  },
+  {
+    "lat": 31.2311452129079,
+    "lng": 121.4512457756766,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "江宁路南京西路",
+    "pointIdx": 36363
+  },
+  {
+    "lat": 31.2305764269362,
+    "lng": 121.4513037926168,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "澳大利亚投资局",
+    "pointIdx": 100072
+  },
+  {
+    "lat": 31.2312349336798,
+    "lng": 121.4510459517412,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "恒顺大楼",
+    "pointIdx": 161024
+  },
+  {
+    "lat": 31.2313398977778,
+    "lng": 121.4513546514884,
+    "category": "social & entertainment",
+    "class": "theater",
+    "color": "#CA8C00",
+    "name": "美琪大戏院",
+    "pointIdx": 117071
+  },
+  {
+    "lat": 31.2324941400975,
+    "lng": 121.4498858295988,
+    "category": "healthcare",
+    "class": "medical instruments",
+    "color": "#aaaaaa",
+    "name": "马特仕(上海)医疗器械贸易有限公司",
+    "pointIdx": 64114
+  },
+  {
+    "lat": 31.2324941400975,
+    "lng": 121.4498858295988,
+    "category": "government & public infrastructure",
+    "class": "utilities",
+    "color": "#d7c1d1",
+    "name": "上海强生人才服务有限公司",
+    "pointIdx": 92418
+  },
+  {
+    "lat": 31.2324941400975,
+    "lng": 121.4498858295988,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "新城大厦-管理处",
+    "pointIdx": 100597
+  },
+  {
+    "lat": 31.232515210807,
+    "lng": 121.4506622013061,
+    "category": "government & public infrastructure",
+    "class": "governments at all levels",
+    "color": "#d7c1d1",
+    "name": "福建省人民政府驻上海办事处(江宁路)",
+    "pointIdx": 93453
+  },
+  {
+    "lat": 31.2325334038988,
+    "lng": 121.4500347145973,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "新城大厦-会议中心",
+    "pointIdx": 109357
+  },
+  {
+    "lat": 31.2326188894512,
+    "lng": 121.4500037356083,
+    "category": "social & entertainment",
+    "class": "karaoke bar",
+    "color": "#CA8C00",
+    "name": "好乐迪(江宁店)",
+    "pointIdx": 113493
+  },
+  {
+    "lat": 31.2334422022238,
+    "lng": 121.450112643016,
+    "category": "healthcare",
+    "class": "physical examination institutions",
+    "color": "#aaaaaa",
+    "name": "瑞慈体检(静安分院)",
+    "pointIdx": 63620
+  },
+  {
+    "lat": 31.2334454373696,
+    "lng": 121.450192579771,
+    "category": "education",
+    "class": "research institutions",
+    "color": "#b4d8e7",
+    "name": "蘑菇公寓研发中心",
+    "pointIdx": 29759
+  },
+  {
+    "lat": 31.2334855782072,
+    "lng": 121.4482358519801,
+    "category": "education",
+    "class": "research institutions",
+    "color": "#b4d8e7",
+    "name": "上海市教育委员会教学研究室",
+    "pointIdx": 29338
+  },
+  {
+    "lat": 31.2330773015318,
+    "lng": 121.4494501300412,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "香樟花园",
+    "pointIdx": 120277
+  },
+  {
+    "lat": 31.2335008316385,
+    "lng": 121.4502195589645,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "凯迪克大厦21楼c-d座",
+    "pointIdx": 159752
+  },
+  {
+    "lat": 31.2328880974217,
+    "lng": 121.4502398313159,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "Kabala卡巴拉健身(亚盛大厦店)",
+    "pointIdx": 53367
+  },
+  {
+    "lat": 31.2330034158692,
+    "lng": 121.4503714346332,
+    "category": "government & public infrastructure",
+    "class": "foreign institutions",
+    "color": "#d7c1d1",
+    "name": "尼日利亚驻上海总领事签证处",
+    "pointIdx": 91290
+  },
+  {
+    "lat": 31.2328395014938,
+    "lng": 121.4505632767189,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "上海春栩有限公司",
+    "pointIdx": 190783
+  },
+  {
+    "lat": 31.2329366642308,
+    "lng": 121.4503854239824,
+    "category": "healthcare",
+    "class": "clinic",
+    "color": "#aaaaaa",
+    "name": "睦凡口腔",
+    "pointIdx": 64411
+  },
+  {
+    "lat": 31.2331689168654,
+    "lng": 121.4475931351494,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "大同里",
+    "pointIdx": 123282
+  },
+  {
+    "lat": 31.2333029336401,
+    "lng": 121.4502205561904,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "上海汉盛美亚国际物流有限公司(江宁路分公司)",
+    "pointIdx": 79905
+  },
+  {
+    "lat": 31.2334454373696,
+    "lng": 121.450192579771,
+    "category": "travel & attractions",
+    "class": "ticket office",
+    "color": "#fdb38d",
+    "name": "幸福航空",
+    "pointIdx": 56924
+  },
+  {
+    "lat": 31.2339081144138,
+    "lng": 121.4474072195146,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "SHANGHAI VAPE",
+    "pointIdx": 17565
+  },
+  {
+    "lat": 31.2339312771663,
+    "lng": 121.4489304804148,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "印新有限公司",
+    "pointIdx": 181298
+  },
+  {
+    "lat": 31.2342315265619,
+    "lng": 121.4489564787002,
+    "category": "healthcare",
+    "class": "medical instruments",
+    "color": "#aaaaaa",
+    "name": "上海迈动医疗器械股份有限公司",
+    "pointIdx": 63894
+  },
+  {
+    "lat": 31.2345756084083,
+    "lng": 121.4484138098392,
+    "category": "social & entertainment",
+    "class": "cultural palace",
+    "color": "#CA8C00",
+    "name": "上海大学继续教育学院教工之家",
+    "pointIdx": 115048
+  },
+  {
+    "lat": 31.2343185042112,
+    "lng": 121.4489574830702,
+    "category": "retail & shopping",
+    "class": "home appliances digital",
+    "color": "#44b4e6",
+    "name": "Apple授权经销商(耐克上海员工店)",
+    "pointIdx": 9126
+  },
+  {
+    "lat": 31.2344159381707,
+    "lng": 121.4474102451147,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "中国历史文化名街陕西北路展示咨询中心",
+    "pointIdx": 109310
+  },
+  {
+    "lat": 31.2339889050486,
+    "lng": 121.4491803260814,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "尚列",
+    "pointIdx": 18557
+  },
+  {
+    "lat": 31.234360206649,
+    "lng": 121.4500737070795,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "甄庆里",
+    "pointIdx": 127544
+  },
+  {
+    "lat": 31.234158434814,
+    "lng": 121.4486006826074,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "忆梅邨",
+    "pointIdx": 131059
+  },
+  {
+    "lat": 31.2346157561934,
+    "lng": 121.4473272888047,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "源创创意园-11号楼",
+    "pointIdx": 162037
+  },
+  {
+    "lat": 31.2348545812215,
+    "lng": 121.4508121272458,
+    "category": "businesses & manufacturing",
+    "class": "news publishing",
+    "color": "#73a5e8",
+    "name": "青年报",
+    "pointIdx": 164027
+  },
+  {
+    "lat": 31.2350913847061,
+    "lng": 121.4492443626839,
+    "category": "government & public infrastructure",
+    "class": "utilities",
+    "color": "#d7c1d1",
+    "name": "石油天然气大厦物业管理中心",
+    "pointIdx": 92061
+  },
+  {
+    "lat": 31.2350379681542,
+    "lng": 121.4492823323535,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "上海中信国旅商务会展中心",
+    "pointIdx": 109788
+  },
+  {
+    "lat": 31.2354420707256,
+    "lng": 121.447527296877,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "顺泰小区",
+    "pointIdx": 120164
+  },
+  {
+    "lat": 31.2350944333087,
+    "lng": 121.4493153159736,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "飞奕泰格泰拳馆(静安区新闸路店)",
+    "pointIdx": 54668
+  },
+  {
+    "lat": 31.2351880373059,
+    "lng": 121.4485328009342,
+    "category": "life services",
+    "class": "laundry",
+    "color": "#199cd5",
+    "name": "象王洗得好(江宁店)",
+    "pointIdx": 73506
+  },
+  {
+    "lat": 31.2348547955707,
+    "lng": 121.4495341436927,
+    "category": "healthcare",
+    "class": "pharmacy",
+    "color": "#aaaaaa",
+    "name": "雷允上(静安店)",
+    "pointIdx": 68390
+  },
+  {
+    "lat": 31.2354510508478,
+    "lng": 121.4506053685577,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "华商名邸",
+    "pointIdx": 131576
+  },
+  {
+    "lat": 31.2349621331302,
+    "lng": 121.4502146416628,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "石二房产",
+    "pointIdx": 166901
+  },
+  {
+    "lat": 31.2349034583539,
+    "lng": 121.4499748244686,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "石门二路街道协税办",
+    "pointIdx": 108162
+  },
+  {
+    "lat": 31.2350398047671,
+    "lng": 121.4492713398105,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "STEPUPDANCE",
+    "pointIdx": 25555
+  },
+  {
+    "lat": 31.2347606609126,
+    "lng": 121.4499188549036,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "新闸路江宁路",
+    "pointIdx": 34299
+  },
+  {
+    "lat": 31.2352771648287,
+    "lng": 121.4484738424786,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "良友金伴便利店(江宁店)",
+    "pointIdx": 6943
+  },
+  {
+    "lat": 31.2348965890602,
+    "lng": 121.4499178672968,
+    "category": "life services",
+    "class": "laundry",
+    "color": "#199cd5",
+    "name": "邦洁快速干洗(新闸路店)",
+    "pointIdx": 72616
+  },
+  {
+    "lat": 31.2350380716518,
+    "lng": 121.4492893277221,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "石油天然气大厦",
+    "pointIdx": 159512
+  },
+  {
+    "lat": 31.2349761521603,
+    "lng": 121.4502805897529,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "胜立图文",
+    "pointIdx": 83940
+  },
+  {
+    "lat": 31.2348061522459,
+    "lng": 121.4473632916855,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安区知识产权局版权服务工作站",
+    "pointIdx": 101862
+  },
+  {
+    "lat": 31.2351912778746,
+    "lng": 121.4498399545406,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "阮玲玉故居",
+    "pointIdx": 59330
+  },
+  {
+    "lat": 31.2347476114707,
+    "lng": 121.4480609990627,
+    "category": "education",
+    "class": "adult education",
+    "color": "#b4d8e7",
+    "name": "上海大学继续教育学院",
+    "pointIdx": 32853
+  },
+  {
+    "lat": 31.2348079037272,
+    "lng": 121.4508311064153,
+    "category": "travel & attractions",
+    "class": "express inn",
+    "color": "#fdb38d",
+    "name": "上海CitiGo酒店",
+    "pointIdx": 62375
+  },
+  {
+    "lat": 31.2356182088599,
+    "lng": 121.4482020231865,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "建安大厦",
+    "pointIdx": 159819
+  },
+  {
+    "lat": 31.2315152035536,
+    "lng": 121.4509057078348,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "Justin&Julie Fitness中信泰富旗舰店",
+    "pointIdx": 54060
+  },
+  {
+    "lat": 31.2300095780776,
+    "lng": 121.4484070305455,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "智优安装有限公司",
+    "pointIdx": 186545
+  },
+  {
+    "lat": 31.2311304491735,
+    "lng": 121.4485767834417,
+    "category": "social & entertainment",
+    "class": "church",
+    "color": "#CA8C00",
+    "name": "上海市基督教怀恩堂",
+    "pointIdx": 110127
+  },
+  {
+    "lat": 31.2303855486724,
+    "lng": 121.450430598103,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "01-2(金鹰国际购物中心上海店)",
+    "pointIdx": 16366
+  },
+  {
+    "lat": 31.2314927009922,
+    "lng": 121.4489535288714,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "御鲤湘(北京西路店)",
+    "pointIdx": 155919
+  },
+  {
+    "lat": 31.2302528311868,
+    "lng": 121.4474864026489,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "百印林图文",
+    "pointIdx": 84353
+  },
+  {
+    "lat": 31.2300553976486,
+    "lng": 121.4499590255496,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "陕西北路南京西路",
+    "pointIdx": 44721
+  },
+  {
+    "lat": 31.2305380529886,
+    "lng": 121.4503396505265,
+    "category": "retail & shopping",
+    "class": "shopping center",
+    "color": "#44b4e6",
+    "name": "金鹰国际购物中心(上海店)",
+    "pointIdx": 9700
+  },
+  {
+    "lat": 31.231589049471,
+    "lng": 121.45081412624,
+    "category": "government & public infrastructure",
+    "class": "utilities",
+    "color": "#d7c1d1",
+    "name": "国家电网",
+    "pointIdx": 92106
+  },
+  {
+    "lat": 31.2312073036704,
+    "lng": 121.4480700332012,
+    "category": "life services",
+    "class": "pet service",
+    "color": "#199cd5",
+    "name": "猫先生之家",
+    "pointIdx": 76105
+  },
+  {
+    "lat": 31.2309798725902,
+    "lng": 121.4507852147022,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(奉贤路店)",
+    "pointIdx": 1649
+  },
+  {
+    "lat": 31.2303618793766,
+    "lng": 121.4500635869387,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "Z&B",
+    "pointIdx": 51741
+  },
+  {
+    "lat": 31.2303111175819,
+    "lng": 121.4504645812291,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "李小龙截拳道bruceLee jeetkunedo club(金鹰国际购物中心上海店)",
+    "pointIdx": 54733
+  },
+  {
+    "lat": 31.231226199326,
+    "lng": 121.4476971944704,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "北京西路陕西北路",
+    "pointIdx": 42307
+  },
+  {
+    "lat": 31.2302983841542,
+    "lng": 121.4473034607768,
+    "category": "food & catering",
+    "class": "cake dessert shop",
+    "color": "#9b68f0",
+    "name": "康敏点心店(西康路店)",
+    "pointIdx": 145064
+  },
+  {
+    "lat": 31.2304620751363,
+    "lng": 121.4500159181059,
+    "category": "travel & attractions",
+    "class": "apartment hotel",
+    "color": "#fdb38d",
+    "name": "骏豪国际酒店式公寓",
+    "pointIdx": 60759
+  },
+  {
+    "lat": 31.2310841219929,
+    "lng": 121.4504245107309,
+    "category": "social & entertainment",
+    "class": "game place",
+    "color": "#CA8C00",
+    "name": "喜聚轰趴馆·K歌棋牌桌游PS4(南京西路店)",
+    "pointIdx": 117518
+  },
+  {
+    "lat": 31.2315274029109,
+    "lng": 121.4502635971501,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海延中物业管理有限公司江宁京西小区物业一体化管理站",
+    "pointIdx": 100078
+  },
+  {
+    "lat": 31.2316466706782,
+    "lng": 121.4475981951024,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "北京新村",
+    "pointIdx": 122011
+  },
+  {
+    "lat": 31.2310165221107,
+    "lng": 121.4506383380684,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "浅草六丁目(静安本店)",
+    "pointIdx": 146418
+  },
+  {
+    "lat": 31.2307146743421,
+    "lng": 121.4485788324728,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "南阳路30弄-9号",
+    "pointIdx": 120226
+  },
+  {
+    "lat": 31.2305941051616,
+    "lng": 121.448744755387,
+    "category": "food & catering",
+    "class": "snack fast food restaurant",
+    "color": "#9b68f0",
+    "name": "河南拉面馆(南阳路店)",
+    "pointIdx": 152454
+  },
+  {
+    "lat": 31.2305429501356,
+    "lng": 121.4493483866706,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "上海大学遗址",
+    "pointIdx": 59011
+  },
+  {
+    "lat": 31.2306048652494,
+    "lng": 121.4480900967295,
+    "category": "education",
+    "class": "kindergarten",
+    "color": "#b4d8e7",
+    "name": "南阳实验幼儿园分部(南阳路总部)",
+    "pointIdx": 31390
+  },
+  {
+    "lat": 31.2299434162122,
+    "lng": 121.4486049355018,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "顺丰速运(恒隆广场店)",
+    "pointIdx": 79602
+  },
+  {
+    "lat": 31.2309981997723,
+    "lng": 121.447390336578,
+    "category": "food & catering",
+    "class": "snack fast food restaurant",
+    "color": "#9b68f0",
+    "name": "好饪珍煲仔饭(静安店)",
+    "pointIdx": 150476
+  },
+  {
+    "lat": 31.2316515795087,
+    "lng": 121.4496920232784,
+    "category": "education",
+    "class": "primary school",
+    "color": "#b4d8e7",
+    "name": "西康路第三小学(东部)",
+    "pointIdx": 32559
+  },
+  {
+    "lat": 31.2320532723607,
+    "lng": 121.4497499522419,
+    "category": "social & entertainment",
+    "class": "cultural palace",
+    "color": "#CA8C00",
+    "name": "上海市邮政局老干部活动中心(银发大厦)",
+    "pointIdx": 115224
+  },
+  {
+    "lat": 31.2321097318842,
+    "lng": 121.4497159736176,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "银发大厦",
+    "pointIdx": 163833
+  },
+  {
+    "lat": 31.232010803981,
+    "lng": 121.4483478294887,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "Light & Salt Daily(陕西北路店)",
+    "pointIdx": 146711
+  },
+  {
+    "lat": 31.231818591886,
+    "lng": 121.4503485042525,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "京西大楼",
+    "pointIdx": 120334
+  },
+  {
+    "lat": 31.232175883244,
+    "lng": 121.4483588142528,
+    "category": "food & catering",
+    "class": "cafe",
+    "color": "#9b68f0",
+    "name": "SUMERIAN",
+    "pointIdx": 143715
+  },
+  {
+    "lat": 31.2319084575366,
+    "lng": 121.4486726608504,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "中国航运信托公司职工住宅",
+    "pointIdx": 120231
+  },
+  {
+    "lat": 31.231977991352,
+    "lng": 121.4493962062088,
+    "category": "life services",
+    "class": "laundry",
+    "color": "#199cd5",
+    "name": "地球皮衣专洗店",
+    "pointIdx": 73627
+  },
+  {
+    "lat": 31.2322575161069,
+    "lng": 121.4503564701868,
+    "category": "food & catering",
+    "class": "snack fast food restaurant",
+    "color": "#9b68f0",
+    "name": "美琪桂林米粉(江宁路店)",
+    "pointIdx": 152166
+  },
+  {
+    "lat": 31.2321855642499,
+    "lng": 121.4487585948129,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "四通一达",
+    "pointIdx": 81130
+  },
+  {
+    "lat": 31.2322071870831,
+    "lng": 121.449748944163,
+    "category": "education",
+    "class": "art group",
+    "color": "#b4d8e7",
+    "name": "银发艺术团",
+    "pointIdx": 23660
+  },
+  {
+    "lat": 31.2319586051114,
+    "lng": 121.4493022704687,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "地球便利超市",
+    "pointIdx": 1302
+  },
+  {
+    "lat": 31.2322684960025,
+    "lng": 121.4482628582695,
+    "category": "businesses & manufacturing",
+    "class": "news publishing",
+    "color": "#73a5e8",
+    "name": "上海辞书出版社",
+    "pointIdx": 164019
+  },
+  {
+    "lat": 31.2322740776638,
+    "lng": 121.4483758004571,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "陕西北路北京西路",
+    "pointIdx": 36426
+  },
+  {
+    "lat": 31.2323020743403,
+    "lng": 121.4498758453768,
+    "category": "government & public infrastructure",
+    "class": "social groups",
+    "color": "#d7c1d1",
+    "name": "上海市职工保障互助会",
+    "pointIdx": 92963
+  },
+  {
+    "lat": 31.2323297528763,
+    "lng": 121.4479949836398,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "利仕达商务中心",
+    "pointIdx": 162142
+  },
+  {
+    "lat": 31.2323507611209,
+    "lng": 121.4482128792602,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "何东旧居",
+    "pointIdx": 59006
+  },
+  {
+    "lat": 31.2323607277702,
+    "lng": 121.4500507092264,
+    "category": "social & entertainment",
+    "class": "bath massage",
+    "color": "#CA8C00",
+    "name": "康道按摩(江宁店)",
+    "pointIdx": 112231
+  },
+  {
+    "lat": 31.2324351941656,
+    "lng": 121.4481748943072,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "辞海编纂处",
+    "pointIdx": 108672
+  },
+  {
+    "lat": 31.232440292239,
+    "lng": 121.4500896754491,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "有喜屋深夜食堂(北京西路店)",
+    "pointIdx": 158804
+  },
+  {
+    "lat": 31.2324506739298,
+    "lng": 121.4484237676712,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "艺享空间",
+    "pointIdx": 109368
+  },
+  {
+    "lat": 31.2284933091341,
+    "lng": 121.4509864969369,
+    "category": "food & catering",
+    "class": "cake dessert shop",
+    "color": "#9b68f0",
+    "name": "西区老大房(陕西北路店)",
+    "pointIdx": 145849
+  },
+  {
+    "lat": 31.229714685684,
+    "lng": 121.451719527863,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "BREUITLING",
+    "pointIdx": 14303
+  },
+  {
+    "lat": 31.2296618910635,
+    "lng": 121.4516096475249,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "刘湛恩旧居",
+    "pointIdx": 59029
+  },
+  {
+    "lat": 31.2286774552562,
+    "lng": 121.4510633814546,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "荣宗敬旧居",
+    "pointIdx": 59309
+  },
+  {
+    "lat": 31.2293250514523,
+    "lng": 121.450996296975,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "南京西路1173弄小区",
+    "pointIdx": 122354
+  },
+  {
+    "lat": 31.2265637057766,
+    "lng": 121.4482200203811,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "上海展览中心",
+    "pointIdx": 109279
+  },
+  {
+    "lat": 31.227032780825,
+    "lng": 121.4483857787711,
+    "category": "social & entertainment",
+    "class": "leisure square",
+    "color": "#CA8C00",
+    "name": "上海展览中心-东北广场",
+    "pointIdx": 116850
+  },
+  {
+    "lat": 31.2274856761698,
+    "lng": 121.4477439346001,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "上海展览中心-中央大厅",
+    "pointIdx": 109313
+  },
+  {
+    "lat": 31.2281098142745,
+    "lng": 121.4490540777099,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "公共厕所",
+    "pointIdx": 84767
+  },
+  {
+    "lat": 31.2277919736331,
+    "lng": 121.4497916662217,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "沧州大楼",
+    "pointIdx": 132571
+  },
+  {
+    "lat": 31.2278454080567,
+    "lng": 121.44766386199,
+    "category": "travel & attractions",
+    "class": "attractions",
+    "color": "#fdb38d",
+    "name": "飞跃的马",
+    "pointIdx": 57231
+  },
+  {
+    "lat": 31.2281728108878,
+    "lng": 121.4505049999139,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "华业小区-停车场",
+    "pointIdx": 48919
+  },
+  {
+    "lat": 31.2285863469936,
+    "lng": 121.4488320893053,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "上海展览中心9号门-停车场",
+    "pointIdx": 48490
+  },
+  {
+    "lat": 31.2282024147641,
+    "lng": 121.4503531175667,
+    "category": "travel & attractions",
+    "class": "apartment hotel",
+    "color": "#fdb38d",
+    "name": "上海繁华公寓(南京西路店)",
+    "pointIdx": 60892
+  },
+  {
+    "lat": 31.2282961181056,
+    "lng": 121.4505918939372,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "南京西路街道华业社区居民委员会",
+    "pointIdx": 140785
+  },
+  {
+    "lat": 31.2284301629221,
+    "lng": 121.4474437895417,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "上海商城-洗手间",
+    "pointIdx": 85821
+  },
+  {
+    "lat": 31.2286250561105,
+    "lng": 121.4473677685753,
+    "category": "social & entertainment",
+    "class": "cultural palace",
+    "color": "#CA8C00",
+    "name": "美国新闻文化处",
+    "pointIdx": 114358
+  },
+  {
+    "lat": 31.228733024903,
+    "lng": 121.4472937682743,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "至善基金",
+    "pointIdx": 100301
+  },
+  {
+    "lat": 31.2286575657978,
+    "lng": 121.4479265390785,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "PAUL&SHARK(上海商城店)",
+    "pointIdx": 14302
+  },
+  {
+    "lat": 31.2286498055994,
+    "lng": 121.4473497688922,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "美国商务处会议中心",
+    "pointIdx": 109342
+  },
+  {
+    "lat": 31.2282720506914,
+    "lng": 121.4486612668816,
+    "category": "social & entertainment",
+    "class": "leisure square",
+    "color": "#CA8C00",
+    "name": "上海展览中心-东北广场",
+    "pointIdx": 116962
+  },
+  {
+    "lat": 31.2286844365611,
+    "lng": 121.4473987433981,
+    "category": "retail & shopping",
+    "class": "department store",
+    "color": "#44b4e6",
+    "name": "上海商城",
+    "pointIdx": 9331
+  },
+  {
+    "lat": 31.2288602770043,
+    "lng": 121.4473177305555,
+    "category": "social & entertainment",
+    "class": "theater",
+    "color": "#CA8C00",
+    "name": "上海商城剧院",
+    "pointIdx": 117095
+  },
+  {
+    "lat": 31.2290202847078,
+    "lng": 121.447624581715,
+    "category": "healthcare",
+    "class": "physical examination institutions",
+    "color": "#aaaaaa",
+    "name": "上海商城-体检中心",
+    "pointIdx": 63697
+  },
+  {
+    "lat": 31.2290182857089,
+    "lng": 121.4476245821564,
+    "category": "life services",
+    "class": "communication business hall",
+    "color": "#199cd5",
+    "name": "中国电信(上海商城客户服务中心)",
+    "pointIdx": 77422
+  },
+  {
+    "lat": 31.2298027530388,
+    "lng": 121.4495123943201,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "柏威年国际有限公司",
+    "pointIdx": 176173
+  },
+  {
+    "lat": 31.2297090743274,
+    "lng": 121.4489207949532,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "恒隆广场-停车场",
+    "pointIdx": 51354
+  },
+  {
+    "lat": 31.2290202847078,
+    "lng": 121.447624581715,
+    "category": "government & public infrastructure",
+    "class": "foreign institutions",
+    "color": "#d7c1d1",
+    "name": "哥斯达黎加驻华商务处",
+    "pointIdx": 91261
+  },
+  {
+    "lat": 31.2288745046866,
+    "lng": 121.4500336368404,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "SUPERMONKEY超级猩猩健身(南京西路单车店)",
+    "pointIdx": 52052
+  },
+  {
+    "lat": 31.2297441493517,
+    "lng": 121.4492006138049,
+    "category": "retail & shopping",
+    "class": "shopping center",
+    "color": "#44b4e6",
+    "name": "恒隆广场",
+    "pointIdx": 9652
+  },
+  {
+    "lat": 31.2298515536128,
+    "lng": 121.4495673472152,
+    "category": "government & public infrastructure",
+    "class": "utilities",
+    "color": "#d7c1d1",
+    "name": "摹根麦肯立人才服务(上海)有限公司",
+    "pointIdx": 91894
+  },
+  {
+    "lat": 31.2290815731557,
+    "lng": 121.4478694669831,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "上海商城东办公楼-停车场",
+    "pointIdx": 49966
+  },
+  {
+    "lat": 31.2290042381253,
+    "lng": 121.4491138197738,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "南京西路陕西北路",
+    "pointIdx": 36338
+  },
+  {
+    "lat": 31.2295387962628,
+    "lng": 121.4483351530796,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "潮堂(恒隆广场店)",
+    "pointIdx": 155924
+  },
+  {
+    "lat": 31.2295606367947,
+    "lng": 121.4500240654542,
+    "category": "transportation",
+    "class": "ordinary parking space",
+    "color": "#28cfd7",
+    "name": "2031(恒隆广场)",
+    "pointIdx": 32981
+  },
+  {
+    "lat": 31.2296989409225,
+    "lng": 121.4474745012688,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "静安区体育馆-会议中心",
+    "pointIdx": 109900
+  },
+  {
+    "lat": 31.2298332034075,
+    "lng": 121.449676273175,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "京锅屋(恒隆广场店)",
+    "pointIdx": 146866
+  },
+  {
+    "lat": 31.2299158430877,
+    "lng": 121.4497212260842,
+    "category": "healthcare",
+    "class": "clinic",
+    "color": "#aaaaaa",
+    "name": "赛德阳光口腔",
+    "pointIdx": 65503
+  },
+  {
+    "lat": 31.2290245175806,
+    "lng": 121.4475676029254,
+    "category": "life services",
+    "class": "post office",
+    "color": "#199cd5",
+    "name": "上海商城-邮政服务处",
+    "pointIdx": 71114
+  },
+  {
+    "lat": 31.2292955253046,
+    "lng": 121.4489378658892,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "BALMAIN(恒隆广场店)",
+    "pointIdx": 15446
+  },
+  {
+    "lat": 31.2296989409225,
+    "lng": 121.4474745012688,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安区社会体育管理中心",
+    "pointIdx": 104166
+  },
+  {
+    "lat": 31.2295313129902,
+    "lng": 121.4492046515313,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "恒隆广场-一期",
+    "pointIdx": 159332
+  },
+  {
+    "lat": 31.2289017040351,
+    "lng": 121.4500072179432,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "米域MIXPACE(恒泰)",
+    "pointIdx": 163121
+  },
+  {
+    "lat": 31.2296260893221,
+    "lng": 121.4477064248418,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "西康路南京西路",
+    "pointIdx": 36419
+  },
+  {
+    "lat": 31.2297735172698,
+    "lng": 121.4507893940311,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "粤麓轩餐厅(中信泰富广场店)",
+    "pointIdx": 155918
+  },
+  {
+    "lat": 31.2289429564553,
+    "lng": 121.4477455501622,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "上海华安会计师事务所有限公司",
+    "pointIdx": 185304
+  },
+  {
+    "lat": 31.2290512516464,
+    "lng": 121.4503059488029,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "ZARA(南京西路店)",
+    "pointIdx": 18647
+  },
+  {
+    "lat": 31.229742188648,
+    "lng": 121.4489297834181,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "云极基金",
+    "pointIdx": 105852
+  },
+  {
+    "lat": 31.2298486376516,
+    "lng": 121.4506734813558,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "中信泰富广场-男洗手间",
+    "pointIdx": 86651
+  },
+  {
+    "lat": 31.2299174820712,
+    "lng": 121.4483970515389,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "恒隆地产",
+    "pointIdx": 168169
+  },
+  {
+    "lat": 31.2297786180358,
+    "lng": 121.4474900281163,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "GYMPOET私教健身空间(静安恒隆店)",
+    "pointIdx": 51799
+  },
+  {
+    "lat": 31.2290192852083,
+    "lng": 121.4476245819357,
+    "category": "travel & attractions",
+    "class": "ticket office",
+    "color": "#fdb38d",
+    "name": "菲律宾航空",
+    "pointIdx": 57044
+  },
+  {
+    "lat": 31.2256153288974,
+    "lng": 121.4476446288065,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "上海书展",
+    "pointIdx": 109318
+  },
+  {
+    "lat": 31.2264662661611,
+    "lng": 121.4483989646924,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "马上办公服务式办公室(上海展览中心)",
+    "pointIdx": 101513
+  },
+  {
+    "lat": 31.2282372971058,
+    "lng": 121.4448131944053,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "东海广场-4号楼",
+    "pointIdx": 159281
+  },
+  {
+    "lat": 31.2316817308795,
+    "lng": 121.4439724650002,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "中药敷贴请上二楼",
+    "pointIdx": 160644
+  },
+  {
+    "lat": 31.2308799283763,
+    "lng": 121.4463496288854,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "素影图文",
+    "pointIdx": 84177
+  },
+  {
+    "lat": 31.2312362970122,
+    "lng": 121.4462306090397,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "南阳路新里",
+    "pointIdx": 120048
+  },
+  {
+    "lat": 31.2314132144319,
+    "lng": 121.4462305918202,
+    "category": "life services",
+    "class": "laundry",
+    "color": "#199cd5",
+    "name": "五姐妹织补刺绣",
+    "pointIdx": 72431
+  },
+  {
+    "lat": 31.231937456054,
+    "lng": 121.4457726042482,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "上海沃歌斯餐饮有限公司",
+    "pointIdx": 186347
+  },
+  {
+    "lat": 31.2320182466473,
+    "lng": 121.4452406145596,
+    "category": "travel & attractions",
+    "class": "garden",
+    "color": "#fdb38d",
+    "name": "西康公园",
+    "pointIdx": 59470
+  },
+  {
+    "lat": 31.23184007456,
+    "lng": 121.4463975283952,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "国宾大楼",
+    "pointIdx": 163308
+  },
+  {
+    "lat": 31.2320156981785,
+    "lng": 121.4459635815007,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "西康路新闸路",
+    "pointIdx": 34283
+  },
+  {
+    "lat": 31.2317718832501,
+    "lng": 121.4462985509161,
+    "category": "healthcare",
+    "class": "physical examination institutions",
+    "color": "#aaaaaa",
+    "name": "爱康国宾(上海西康路分院)",
+    "pointIdx": 63677
+  },
+  {
+    "lat": 31.232049860471,
+    "lng": 121.4444805452074,
+    "category": "education",
+    "class": "primary school",
+    "color": "#b4d8e7",
+    "name": "上海市静安区第一中心小学",
+    "pointIdx": 32728
+  },
+  {
+    "lat": 31.2323426217778,
+    "lng": 121.4459695639552,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(西康路店)",
+    "pointIdx": 5518
+  },
+  {
+    "lat": 31.2342791833973,
+    "lng": 121.446003576472,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "康定物业管理有限公司物业管理部",
+    "pointIdx": 104545
+  },
+  {
+    "lat": 31.2330902819211,
+    "lng": 121.4458015630992,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "本本大厦",
+    "pointIdx": 161055
+  },
+  {
+    "lat": 31.2354446871393,
+    "lng": 121.4461676597582,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "泉乐新村",
+    "pointIdx": 120037
+  },
+  {
+    "lat": 31.2330930912265,
+    "lng": 121.4462825029056,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区江宁路街道北京居民委员会",
+    "pointIdx": 140835
+  },
+  {
+    "lat": 31.2325807094445,
+    "lng": 121.4455635860406,
+    "category": "healthcare",
+    "class": "specialist hospital",
+    "color": "#aaaaaa",
+    "name": "上海康奥医疗美容医院",
+    "pointIdx": 63861
+  },
+  {
+    "lat": 31.23252926377,
+    "lng": 121.4461945272053,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "西康路264弄",
+    "pointIdx": 120038
+  },
+  {
+    "lat": 31.2353322022099,
+    "lng": 121.4462876273699,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区江宁路街道众乐里居民委员会",
+    "pointIdx": 140218
+  },
+  {
+    "lat": 31.2353965962967,
+    "lng": 121.4466425635289,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "泰山烟杂店(陕西北路店)",
+    "pointIdx": 13452
+  },
+  {
+    "lat": 31.2358131590529,
+    "lng": 121.4465416397458,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "沪纺大厦房务中心",
+    "pointIdx": 168532
+  },
+  {
+    "lat": 31.2357070675595,
+    "lng": 121.4466106099999,
+    "category": "travel & attractions",
+    "class": "star hotels",
+    "color": "#fdb38d",
+    "name": "沪纺大厦",
+    "pointIdx": 61434
+  },
+  {
+    "lat": 31.2351039431873,
+    "lng": 121.4466605270506,
+    "category": "life services",
+    "class": "maintenance point",
+    "color": "#199cd5",
+    "name": "小葛修鞋店",
+    "pointIdx": 81336
+  },
+  {
+    "lat": 31.2334482794885,
+    "lng": 121.4455595801933,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "新闸路1378弄",
+    "pointIdx": 119977
+  },
+  {
+    "lat": 31.2353674443696,
+    "lng": 121.446629563111,
+    "category": "life services",
+    "class": "lottery point of sale",
+    "color": "#199cd5",
+    "name": "中国福利彩票(陕西北路店)",
+    "pointIdx": 70527
+  },
+  {
+    "lat": 31.2340354568182,
+    "lng": 121.4448925850095,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市静安区教育局基建校产管理站",
+    "pointIdx": 100077
+  },
+  {
+    "lat": 31.2351529536838,
+    "lng": 121.4455076862651,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "快易名商",
+    "pointIdx": 159504
+  },
+  {
+    "lat": 31.2333802032247,
+    "lng": 121.4468593784454,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "刘晦之情系藏书楼",
+    "pointIdx": 58974
+  },
+  {
+    "lat": 31.2355190275786,
+    "lng": 121.4456127242789,
+    "category": "life services",
+    "class": "maintenance point",
+    "color": "#199cd5",
+    "name": "手机电脑维修",
+    "pointIdx": 82784
+  },
+  {
+    "lat": 31.2330138159722,
+    "lng": 121.4463384936774,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安区市场监督管理局消费者权益保护北京居民区联络点",
+    "pointIdx": 100437
+  },
+  {
+    "lat": 31.2327713514068,
+    "lng": 121.445191583556,
+    "category": "healthcare",
+    "class": "general hospital",
+    "color": "#aaaaaa",
+    "name": "上海市静安区中心医院",
+    "pointIdx": 63368
+  },
+  {
+    "lat": 31.2337101003605,
+    "lng": 121.4448475684513,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "立居地产",
+    "pointIdx": 167221
+  },
+  {
+    "lat": 31.233136200472,
+    "lng": 121.4449245661222,
+    "category": "government & public infrastructure",
+    "class": "social groups",
+    "color": "#d7c1d1",
+    "name": "上海市静安区金融与财务管理协会",
+    "pointIdx": 93236
+  },
+  {
+    "lat": 31.2349127087635,
+    "lng": 121.4451276610258,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "武定路569弄小区",
+    "pointIdx": 125482
+  },
+  {
+    "lat": 31.2337911027563,
+    "lng": 121.4469433645657,
+    "category": "food & catering",
+    "class": "cake dessert shop",
+    "color": "#9b68f0",
+    "name": "PIE BIRD(新闸路店)",
+    "pointIdx": 145958
+  },
+  {
+    "lat": 31.2333459866384,
+    "lng": 121.4455305798879,
+    "category": "food & catering",
+    "class": "cake dessert shop",
+    "color": "#9b68f0",
+    "name": "红宝石(新闸店)",
+    "pointIdx": 145558
+  },
+  {
+    "lat": 31.2341452809012,
+    "lng": 121.447046349661,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "陕西北路587弄小区",
+    "pointIdx": 120115
+  },
+  {
+    "lat": 31.2345982614517,
+    "lng": 121.4448056124035,
+    "category": "life services",
+    "class": "pet service",
+    "color": "#199cd5",
+    "name": "喵喵酱·星空泡泡撸猫馆·猫咪专售(武定路店)",
+    "pointIdx": 75156
+  },
+  {
+    "lat": 31.2349315974398,
+    "lng": 121.4447576362339,
+    "category": "life services",
+    "class": "laundry",
+    "color": "#199cd5",
+    "name": "依洁洗衣店(武定路店)",
+    "pointIdx": 72743
+  },
+  {
+    "lat": 31.2340926014883,
+    "lng": 121.4445405477,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "肯德基(武定餐厅)-洗手间",
+    "pointIdx": 86515
+  },
+  {
+    "lat": 31.2347466742077,
+    "lng": 121.4447576195869,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "东大理研",
+    "pointIdx": 26622
+  },
+  {
+    "lat": 31.2341619318971,
+    "lng": 121.4443865265808,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(西康路二店)",
+    "pointIdx": 5068
+  },
+  {
+    "lat": 31.2325312356941,
+    "lng": 121.4441564624675,
+    "category": "social & entertainment",
+    "class": "cultural palace",
+    "color": "#CA8C00",
+    "name": "城市学校少年宫",
+    "pointIdx": 115038
+  },
+  {
+    "lat": 31.2347275486759,
+    "lng": 121.4446776916744,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "Blue Cat健身工作室(南京西路店)",
+    "pointIdx": 53086
+  },
+  {
+    "lat": 31.2338931673759,
+    "lng": 121.4472592705074,
+    "category": "life services",
+    "class": "communication business hall",
+    "color": "#199cd5",
+    "name": "中国联通(新闸路营业厅)",
+    "pointIdx": 77076
+  },
+  {
+    "lat": 31.2350709993931,
+    "lng": 121.4447996542478,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "佳欣地产",
+    "pointIdx": 164567
+  },
+  {
+    "lat": 31.2342905166878,
+    "lng": 121.4447255827149,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "西康路370弄-32号",
+    "pointIdx": 160965
+  },
+  {
+    "lat": 31.2329008673472,
+    "lng": 121.4443284892767,
+    "category": "healthcare",
+    "class": "medical instruments",
+    "color": "#aaaaaa",
+    "name": "海音助听器专家",
+    "pointIdx": 64007
+  },
+  {
+    "lat": 31.2341162329977,
+    "lng": 121.4471953015713,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "广告图文",
+    "pointIdx": 84221
+  },
+  {
+    "lat": 31.2347411659182,
+    "lng": 121.4472103383905,
+    "category": "life services",
+    "class": "photo studio",
+    "color": "#199cd5",
+    "name": "上海构思GOTH影像摄影机构",
+    "pointIdx": 71379
+  },
+  {
+    "lat": 31.2342630096001,
+    "lng": 121.4472592883443,
+    "category": "life services",
+    "class": "housekeeping",
+    "color": "#199cd5",
+    "name": "豪豪开锁",
+    "pointIdx": 74662
+  },
+  {
+    "lat": 31.2288955049137,
+    "lng": 121.4467968777324,
+    "category": "food & catering",
+    "class": "tea house",
+    "color": "#9b68f0",
+    "name": "鱼想茶馆(南京西路店)",
+    "pointIdx": 143171
+  },
+  {
+    "lat": 31.2282464322313,
+    "lng": 121.4456192133092,
+    "category": "education",
+    "class": "research institutions",
+    "color": "#b4d8e7",
+    "name": "上海日本研究交流中心",
+    "pointIdx": 29855
+  },
+  {
+    "lat": 31.2283644936622,
+    "lng": 121.4467750110777,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "pizza marzano(上海商城店)",
+    "pointIdx": 146234
+  },
+  {
+    "lat": 31.2283944115916,
+    "lng": 121.4470809191622,
+    "category": "healthcare",
+    "class": "pharmacy",
+    "color": "#aaaaaa",
+    "name": "华氏大药房(上海商城店)",
+    "pointIdx": 67439
+  },
+  {
+    "lat": 31.2284169509754,
+    "lng": 121.4468129881893,
+    "category": "healthcare",
+    "class": "clinic",
+    "color": "#aaaaaa",
+    "name": "上海瑞新医疗中心",
+    "pointIdx": 64955
+  },
+  {
+    "lat": 31.2283726598667,
+    "lng": 121.4441020418646,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "CJ教育",
+    "pointIdx": 28002
+  },
+  {
+    "lat": 31.2292446943569,
+    "lng": 121.4457689708602,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区南京西路街道联华居民委员会",
+    "pointIdx": 140814
+  },
+  {
+    "lat": 31.2282621410207,
+    "lng": 121.4445231512296,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "鸿姐老火锅(静安店)",
+    "pointIdx": 155497
+  },
+  {
+    "lat": 31.2292247871444,
+    "lng": 121.4457759744801,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "联华居民区综治工作站",
+    "pointIdx": 100102
+  },
+  {
+    "lat": 31.2290169153834,
+    "lng": 121.4470667758842,
+    "category": "travel & attractions",
+    "class": "star hotels",
+    "color": "#fdb38d",
+    "name": "上海波特曼丽思卡尔顿酒店",
+    "pointIdx": 61163
+  },
+  {
+    "lat": 31.2292211523074,
+    "lng": 121.4460569470948,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "南京西路派出所联华警务室",
+    "pointIdx": 98843
+  },
+  {
+    "lat": 31.2287211844415,
+    "lng": 121.444072950272,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "顺丰一站",
+    "pointIdx": 79569
+  },
+  {
+    "lat": 31.2292682848549,
+    "lng": 121.4440118152927,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "存朴堂·语文作文·美术培训学校(静安店)",
+    "pointIdx": 25437
+  },
+  {
+    "lat": 31.2292767489901,
+    "lng": 121.444015585514,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "体脑瑜伽中心(北京西路)",
+    "pointIdx": 53489
+  },
+  {
+    "lat": 31.2287944759039,
+    "lng": 121.446711921832,
+    "category": "retail & shopping",
+    "class": "supermarket",
+    "color": "#44b4e6",
+    "name": "城市超市(上海商城店)",
+    "pointIdx": 21407
+  },
+  {
+    "lat": 31.2282404002099,
+    "lng": 121.4456162150173,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "上海福开森房地产",
+    "pointIdx": 167887
+  },
+  {
+    "lat": 31.2282633578817,
+    "lng": 121.4455764218476,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "VM Pilates&Yoga普拉提瑜伽工作室(九安广场银座店)",
+    "pointIdx": 53591
+  },
+  {
+    "lat": 31.2291299245425,
+    "lng": 121.4455280076412,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "皮裘公寓",
+    "pointIdx": 131061
+  },
+  {
+    "lat": 31.2288585744481,
+    "lng": 121.4468008851256,
+    "category": "food & catering",
+    "class": "snack fast food restaurant",
+    "color": "#9b68f0",
+    "name": "素宿(南京西路店)",
+    "pointIdx": 152057
+  },
+  {
+    "lat": 31.2288269456599,
+    "lng": 121.4442479644536,
+    "category": "education",
+    "class": "study abroad agency",
+    "color": "#b4d8e7",
+    "name": "InAmerica International在美国际教育",
+    "pointIdx": 31848
+  },
+  {
+    "lat": 31.2286726727866,
+    "lng": 121.4441179721804,
+    "category": "government & public infrastructure",
+    "class": "foreign institutions",
+    "color": "#d7c1d1",
+    "name": "德国驻沪总领事馆领事处",
+    "pointIdx": 91266
+  },
+  {
+    "lat": 31.228493911401,
+    "lng": 121.4449711428858,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "铜仁路史量才旧居",
+    "pointIdx": 58801
+  },
+  {
+    "lat": 31.2286442679172,
+    "lng": 121.444270011551,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "韶晖基金",
+    "pointIdx": 100333
+  },
+  {
+    "lat": 31.2288920552965,
+    "lng": 121.4468398674537,
+    "category": "food & catering",
+    "class": "cafe",
+    "color": "#9b68f0",
+    "name": "星巴克臻选(波特曼店)",
+    "pointIdx": 143275
+  },
+  {
+    "lat": 31.2288751942112,
+    "lng": 121.4451030603996,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "铜仁路南京西路",
+    "pointIdx": 41252
+  },
+  {
+    "lat": 31.2283949583954,
+    "lng": 121.4454991795623,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "EF英孚教育(亚太区总部)",
+    "pointIdx": 28261
+  },
+  {
+    "lat": 31.2287144133121,
+    "lng": 121.4468609030838,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "上海商城-西办公楼",
+    "pointIdx": 160070
+  },
+  {
+    "lat": 31.2292871017461,
+    "lng": 121.4439948071903,
+    "category": "healthcare",
+    "class": "medical instruments",
+    "color": "#aaaaaa",
+    "name": "上海亘浩医疗器械有限公司",
+    "pointIdx": 64175
+  },
+  {
+    "lat": 31.2293383239232,
+    "lng": 121.4446829256001,
+    "category": "education",
+    "class": "research institutions",
+    "color": "#b4d8e7",
+    "name": "上海市城市规划设计研究院",
+    "pointIdx": 29767
+  },
+  {
+    "lat": 31.2295158493868,
+    "lng": 121.4459608990157,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "公共厕所",
+    "pointIdx": 88118
+  },
+  {
+    "lat": 31.2294801403161,
+    "lng": 121.4457319260844,
+    "category": "life services",
+    "class": "lottery point of sale",
+    "color": "#199cd5",
+    "name": "中国体育彩票(南阳路店)",
+    "pointIdx": 69882
+  },
+  {
+    "lat": 31.2292871017461,
+    "lng": 121.4439948071903,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "英腾广告有限公司",
+    "pointIdx": 184713
+  },
+  {
+    "lat": 31.2296570860599,
+    "lng": 121.4449488901402,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "爱文公寓旧址",
+    "pointIdx": 59276
+  },
+  {
+    "lat": 31.2298173349366,
+    "lng": 121.4454289288352,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "小黑裙瑜伽(莲花魔力静安店)",
+    "pointIdx": 51748
+  },
+  {
+    "lat": 31.229343360201,
+    "lng": 121.4440228027605,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "信达大厦",
+    "pointIdx": 159274
+  },
+  {
+    "lat": 31.2299822971762,
+    "lng": 121.4469006351939,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "静安区体育馆-网球馆",
+    "pointIdx": 54166
+  },
+  {
+    "lat": 31.2302633192043,
+    "lng": 121.4469905645233,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "快客(天丰店)",
+    "pointIdx": 5260
+  },
+  {
+    "lat": 31.2303067826385,
+    "lng": 121.446950569237,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "吉羊邨",
+    "pointIdx": 120105
+  },
+  {
+    "lat": 31.2300297835884,
+    "lng": 121.4450278300784,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "罗森便利店(北京西路1361号店)",
+    "pointIdx": 1617
+  },
+  {
+    "lat": 31.2304962450493,
+    "lng": 121.4455267655096,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "雷士德医学院旧址",
+    "pointIdx": 59164
+  },
+  {
+    "lat": 31.2301302586636,
+    "lng": 121.445512821079,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "北京西路1333弄",
+    "pointIdx": 119972
+  },
+  {
+    "lat": 31.2304736597456,
+    "lng": 121.447178476104,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "PHO STORE(西康路店)",
+    "pointIdx": 146734
+  },
+  {
+    "lat": 31.2303598414407,
+    "lng": 121.4443096884324,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "北京西路1400弄小区",
+    "pointIdx": 122013
+  },
+  {
+    "lat": 31.2304548243204,
+    "lng": 121.4461617154263,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "上海市机电设计研究院有限公司",
+    "pointIdx": 198093
+  },
+  {
+    "lat": 31.2305599696741,
+    "lng": 121.4465816245151,
+    "category": "government & public infrastructure",
+    "class": "broadcasting",
+    "color": "#d7c1d1",
+    "name": "日资企业频道",
+    "pointIdx": 90952
+  },
+  {
+    "lat": 31.2305766157094,
+    "lng": 121.4466336106632,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "上海国旅大厦",
+    "pointIdx": 159373
+  },
+  {
+    "lat": 31.2306444874906,
+    "lng": 121.4458927216438,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "佳歆房产(北京西路店)",
+    "pointIdx": 166890
+  },
+  {
+    "lat": 31.2306963034941,
+    "lng": 121.4466925809086,
+    "category": "healthcare",
+    "class": "medical instruments",
+    "color": "#aaaaaa",
+    "name": "上海视强医疗器械有限公司",
+    "pointIdx": 63899
+  },
+  {
+    "lat": 31.2311265662622,
+    "lng": 121.4427860795977,
+    "category": "education",
+    "class": "middle school",
+    "color": "#b4d8e7",
+    "name": "培明中学",
+    "pointIdx": 24189
+  },
+  {
+    "lat": 31.2312196718918,
+    "lng": 121.4394333391079,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "上海市华伦小区",
+    "pointIdx": 120330
+  },
+  {
+    "lat": 31.2314194700709,
+    "lng": 121.4417384388651,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "链家(豪景店)",
+    "pointIdx": 164887
+  },
+  {
+    "lat": 31.231977518901,
+    "lng": 121.4413961502883,
+    "category": "life services",
+    "class": "housekeeping",
+    "color": "#199cd5",
+    "name": "常福家政",
+    "pointIdx": 74739
+  },
+  {
+    "lat": 31.2320063017741,
+    "lng": 121.4402597662856,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "BASEBODY",
+    "pointIdx": 51671
+  },
+  {
+    "lat": 31.2317793359696,
+    "lng": 121.4417424128018,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "常德路新闸路",
+    "pointIdx": 42364
+  },
+  {
+    "lat": 31.2322053217199,
+    "lng": 121.4437573730607,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市第二十三职业技能鉴定所",
+    "pointIdx": 108548
+  },
+  {
+    "lat": 31.2320786425666,
+    "lng": 121.4436833573314,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "大礼堂",
+    "pointIdx": 109887
+  },
+  {
+    "lat": 31.2318640190874,
+    "lng": 121.4384059929693,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "Bites&Brews(武定路店)",
+    "pointIdx": 146690
+  },
+  {
+    "lat": 31.2321632314149,
+    "lng": 121.439255060293,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市静安区中小企业服务中心",
+    "pointIdx": 101337
+  },
+  {
+    "lat": 31.2321368182308,
+    "lng": 121.439177969289,
+    "category": "healthcare",
+    "class": "clinic",
+    "color": "#aaaaaa",
+    "name": "泰康拜博口腔(爱登门诊部)",
+    "pointIdx": 65290
+  },
+  {
+    "lat": 31.2321192847462,
+    "lng": 121.4392610696444,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "英棋大厦",
+    "pointIdx": 162550
+  },
+  {
+    "lat": 31.2323667795148,
+    "lng": 121.4438103812243,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "菜鸟驿站(上海市静安区新闸路1501号店)",
+    "pointIdx": 78902
+  },
+  {
+    "lat": 31.2318858699436,
+    "lng": 121.4414361860681,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "通丅水馬洗手池",
+    "pointIdx": 120347
+  },
+  {
+    "lat": 31.2319355344752,
+    "lng": 121.4429330801766,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "新闸路西康路",
+    "pointIdx": 34292
+  },
+  {
+    "lat": 31.2322297419436,
+    "lng": 121.4406224926097,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区江宁路街道又一村居民委员会",
+    "pointIdx": 138719
+  },
+  {
+    "lat": 31.2322013835898,
+    "lng": 121.4409918165205,
+    "category": "transportation",
+    "class": "gas station",
+    "color": "#28cfd7",
+    "name": "中国石油(常德路加油站)",
+    "pointIdx": 33630
+  },
+  {
+    "lat": 31.2320737822989,
+    "lng": 121.4393461724276,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "上海静安黑白灰美术培训学校",
+    "pointIdx": 27210
+  },
+  {
+    "lat": 31.2318037972964,
+    "lng": 121.441550275527,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "胖子便利店(常德路店)",
+    "pointIdx": 6052
+  },
+  {
+    "lat": 31.2320685210269,
+    "lng": 121.4433632492556,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "爱家便利",
+    "pointIdx": 6099
+  },
+  {
+    "lat": 31.2320714991218,
+    "lng": 121.4391138950343,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "金手套拳击馆",
+    "pointIdx": 54669
+  },
+  {
+    "lat": 31.2320907516378,
+    "lng": 121.4433882572189,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "佳歆房产(新闸路店)",
+    "pointIdx": 165355
+  },
+  {
+    "lat": 31.2322873347202,
+    "lng": 121.4385131153454,
+    "category": "government & public infrastructure",
+    "class": "partisan groups",
+    "color": "#d7c1d1",
+    "name": "上海市控制吸烟协会",
+    "pointIdx": 92903
+  },
+  {
+    "lat": 31.2324513804863,
+    "lng": 121.4410068187932,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "福人居房产(陕西北路店)",
+    "pointIdx": 166270
+  },
+  {
+    "lat": 31.23561060613,
+    "lng": 121.443322368528,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安区人才开发调节中心",
+    "pointIdx": 107555
+  },
+  {
+    "lat": 31.2352535846443,
+    "lng": 121.4433033930512,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "C ONE 运动健身",
+    "pointIdx": 53922
+  },
+  {
+    "lat": 31.2350816494247,
+    "lng": 121.4386203467399,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "警务站",
+    "pointIdx": 96542
+  },
+  {
+    "lat": 31.2341026153733,
+    "lng": 121.4433622451406,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "武定路西康路",
+    "pointIdx": 33869
+  },
+  {
+    "lat": 31.2339501496649,
+    "lng": 121.4390167682145,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "康德大楼",
+    "pointIdx": 162620
+  },
+  {
+    "lat": 31.2331722511326,
+    "lng": 121.4398477066493,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区江宁路街道恒德里社区居民委员会",
+    "pointIdx": 140882
+  },
+  {
+    "lat": 31.2329256117057,
+    "lng": 121.4405033635848,
+    "category": "life services",
+    "class": "housekeeping",
+    "color": "#199cd5",
+    "name": "配钥匙",
+    "pointIdx": 74657
+  },
+  {
+    "lat": 31.2354614213471,
+    "lng": 121.4393633139093,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "安能物流",
+    "pointIdx": 78692
+  },
+  {
+    "lat": 31.2342080735011,
+    "lng": 121.4388315489219,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "康定路716弄小区",
+    "pointIdx": 127713
+  },
+  {
+    "lat": 31.2327373493531,
+    "lng": 121.4422777086427,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "静安枫景苑",
+    "pointIdx": 119810
+  },
+  {
+    "lat": 31.2350849896745,
+    "lng": 121.4435463862762,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "中原地产(静安豪景分行店)",
+    "pointIdx": 166605
+  },
+  {
+    "lat": 31.2324554968587,
+    "lng": 121.4393261322523,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "中国共产党中央特科机关旧址",
+    "pointIdx": 58791
+  },
+  {
+    "lat": 31.2345755673003,
+    "lng": 121.4387624856713,
+    "category": "life services",
+    "class": "post office",
+    "color": "#199cd5",
+    "name": "中国邮政(常德路)",
+    "pointIdx": 71170
+  },
+  {
+    "lat": 31.2332157313795,
+    "lng": 121.440241111187,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "农家花园",
+    "pointIdx": 120099
+  },
+  {
+    "lat": 31.2327509957551,
+    "lng": 121.4434442528244,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "静安国际广场-1号楼",
+    "pointIdx": 160767
+  },
+  {
+    "lat": 31.2344723500104,
+    "lng": 121.4424798673108,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区江宁路街道景苑居民委员会",
+    "pointIdx": 139613
+  },
+  {
+    "lat": 31.2350402690508,
+    "lng": 121.4436744228113,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区江宁路街道武定坊居民委员会",
+    "pointIdx": 142543
+  },
+  {
+    "lat": 31.2325092594015,
+    "lng": 121.439288085678,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "武定路926弄",
+    "pointIdx": 120340
+  },
+  {
+    "lat": 31.2341366182844,
+    "lng": 121.443871410091,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "武定路657弄",
+    "pointIdx": 119819
+  },
+  {
+    "lat": 31.2347181586315,
+    "lng": 121.4423548175592,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "静安豪景苑",
+    "pointIdx": 119800
+  },
+  {
+    "lat": 31.2356096749608,
+    "lng": 121.4438385369776,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "向新新村",
+    "pointIdx": 124124
+  },
+  {
+    "lat": 31.2354339525175,
+    "lng": 121.4432463170239,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "康定大厦-写字楼",
+    "pointIdx": 159508
+  },
+  {
+    "lat": 31.233335706597,
+    "lng": 121.44009096177,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "赢创地产",
+    "pointIdx": 168210
+  },
+  {
+    "lat": 31.2335438679082,
+    "lng": 121.4398116733175,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安区粮食和物资储备局副补发放管理组",
+    "pointIdx": 100931
+  },
+  {
+    "lat": 31.2353806902628,
+    "lng": 121.4431102556638,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "西康路康定路",
+    "pointIdx": 34288
+  },
+  {
+    "lat": 31.2304253678816,
+    "lng": 121.4438785787632,
+    "category": "government & public infrastructure",
+    "class": "social groups",
+    "color": "#d7c1d1",
+    "name": "上海市医药卫生发展基金会",
+    "pointIdx": 93254
+  },
+  {
+    "lat": 31.2291389565342,
+    "lng": 121.4438748064455,
+    "category": "retail & shopping",
+    "class": "supermarket",
+    "color": "#44b4e6",
+    "name": "便利蜂(信达大厦店)",
+    "pointIdx": 20840
+  },
+  {
+    "lat": 31.2295538168728,
+    "lng": 121.4387557492302,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "上海假肢厂有限公司",
+    "pointIdx": 185043
+  },
+  {
+    "lat": 31.2295671701931,
+    "lng": 121.4437176751683,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "北京西路常德路",
+    "pointIdx": 47085
+  },
+  {
+    "lat": 31.2290514535296,
+    "lng": 121.4434146788399,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "上海金丝楠鉴定交易中心",
+    "pointIdx": 98986
+  },
+  {
+    "lat": 31.2290514535296,
+    "lng": 121.4434146788399,
+    "category": "government & public infrastructure",
+    "class": "utilities",
+    "color": "#d7c1d1",
+    "name": "上海英达国际人才有限公司",
+    "pointIdx": 92087
+  },
+  {
+    "lat": 31.2304435077888,
+    "lng": 121.4435924903567,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市卫生系统成人教育委员会考试办公室",
+    "pointIdx": 103016
+  },
+  {
+    "lat": 31.2291175172657,
+    "lng": 121.4434246682769,
+    "category": "life services",
+    "class": "communication business hall",
+    "color": "#199cd5",
+    "name": "中国电信上海分公司客户服务中心VIP俱乐部",
+    "pointIdx": 77363
+  },
+  {
+    "lat": 31.2283940552276,
+    "lng": 121.4390744039516,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "富文寿旧居",
+    "pointIdx": 58970
+  },
+  {
+    "lat": 31.2290514148914,
+    "lng": 121.4434106773987,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "天翼客户俱乐部",
+    "pointIdx": 55726
+  },
+  {
+    "lat": 31.2291197643271,
+    "lng": 121.4433466391313,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "元青花检测鉴定交易中心",
+    "pointIdx": 104590
+  },
+  {
+    "lat": 31.2291976487557,
+    "lng": 121.4433386197247,
+    "category": "education",
+    "class": "research institutions",
+    "color": "#b4d8e7",
+    "name": "上海黄花梨鉴定交易研究院",
+    "pointIdx": 29074
+  },
+  {
+    "lat": 31.2290803521398,
+    "lng": 121.4434056693459,
+    "category": "travel & attractions",
+    "class": "ticket office",
+    "color": "#fdb38d",
+    "name": "上海商务航空服务有限公司",
+    "pointIdx": 56758
+  },
+  {
+    "lat": 31.2290363837604,
+    "lng": 121.443406679203,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "红酒交易展览中心",
+    "pointIdx": 109872
+  },
+  {
+    "lat": 31.2300614245124,
+    "lng": 121.4424890705012,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "上海佛教居士林",
+    "pointIdx": 58795
+  },
+  {
+    "lat": 31.2292096290702,
+    "lng": 121.4390712146467,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "佳盈房产",
+    "pointIdx": 168254
+  },
+  {
+    "lat": 31.2284141041523,
+    "lng": 121.4394448397653,
+    "category": "food & catering",
+    "class": "cafe",
+    "color": "#9b68f0",
+    "name": "老麦咖啡馆(胶州路店)",
+    "pointIdx": 143392
+  },
+  {
+    "lat": 31.2285264080198,
+    "lng": 121.438965236211,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "上海市静安双美亲子教育培训学校",
+    "pointIdx": 28784
+  },
+  {
+    "lat": 31.2284416730179,
+    "lng": 121.4423103027914,
+    "category": "healthcare",
+    "class": "pharmacy",
+    "color": "#aaaaaa",
+    "name": "世医堂(静安寺店)",
+    "pointIdx": 67742
+  },
+  {
+    "lat": 31.230113982272,
+    "lng": 121.439033003081,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "新闸路洋房",
+    "pointIdx": 121222
+  },
+  {
+    "lat": 31.2303914050379,
+    "lng": 121.4387546092879,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "闽南堂旧址",
+    "pointIdx": 59142
+  },
+  {
+    "lat": 31.229780910415,
+    "lng": 121.4389890040366,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "好德(新闸店)",
+    "pointIdx": 4648
+  },
+  {
+    "lat": 31.2286084982939,
+    "lng": 121.4395298898029,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "胶州路北京西路",
+    "pointIdx": 41262
+  },
+  {
+    "lat": 31.2285110625853,
+    "lng": 121.4421251757087,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市财政局第四监督局",
+    "pointIdx": 101641
+  },
+  {
+    "lat": 31.2299961678253,
+    "lng": 121.4388668138092,
+    "category": "life services",
+    "class": "maintenance point",
+    "color": "#199cd5",
+    "name": "手机维修销售",
+    "pointIdx": 83087
+  },
+  {
+    "lat": 31.2290443086765,
+    "lng": 121.4391813834771,
+    "category": "life services",
+    "class": "maintenance point",
+    "color": "#199cd5",
+    "name": "手机特约服务中心",
+    "pointIdx": 82451
+  },
+  {
+    "lat": 31.229769782289,
+    "lng": 121.442738248676,
+    "category": "government & public infrastructure",
+    "class": "governments at all levels",
+    "color": "#d7c1d1",
+    "name": "上海市静安区人民政府",
+    "pointIdx": 94092
+  },
+  {
+    "lat": 31.2287270270679,
+    "lng": 121.4392825751843,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "蝶舍西餐厅·MAISON PAPILLON",
+    "pointIdx": 146723
+  },
+  {
+    "lat": 31.230582369148,
+    "lng": 121.439836861982,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "宝城商务楼",
+    "pointIdx": 163953
+  },
+  {
+    "lat": 31.2289788561976,
+    "lng": 121.4416397468817,
+    "category": "life services",
+    "class": "post office",
+    "color": "#199cd5",
+    "name": "中国邮政(易邮柜)",
+    "pointIdx": 71055
+  },
+  {
+    "lat": 31.2282933393127,
+    "lng": 121.4398112784697,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "胶州路120弄1-9号",
+    "pointIdx": 120253
+  },
+  {
+    "lat": 31.2306437891319,
+    "lng": 121.440223252475,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "水鸟印务",
+    "pointIdx": 84202
+  },
+  {
+    "lat": 31.2303186585563,
+    "lng": 121.4422999248657,
+    "category": "life services",
+    "class": "housekeeping",
+    "color": "#199cd5",
+    "name": "上海昱洁信息家政有限公司",
+    "pointIdx": 74325
+  },
+  {
+    "lat": 31.2283224763869,
+    "lng": 121.4415498375113,
+    "category": "government & public infrastructure",
+    "class": "partisan groups",
+    "color": "#d7c1d1",
+    "name": "上海市爱心工程基金会",
+    "pointIdx": 92906
+  },
+  {
+    "lat": 31.228816908976,
+    "lng": 121.4422431744419,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(常德店)",
+    "pointIdx": 7274
+  },
+  {
+    "lat": 31.2305635535884,
+    "lng": 121.4401812212072,
+    "category": "social & entertainment",
+    "class": "dance hall",
+    "color": "#CA8C00",
+    "name": "浩顺夜总会",
+    "pointIdx": 110184
+  },
+  {
+    "lat": 31.2294054394597,
+    "lng": 121.4384593852948,
+    "category": "travel & attractions",
+    "class": "express inn",
+    "color": "#fdb38d",
+    "name": "格林豪泰酒店(上海静安寺店)",
+    "pointIdx": 62731
+  },
+  {
+    "lat": 31.2282899679484,
+    "lng": 121.4412215965935,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区静安寺街道静安居民委员会",
+    "pointIdx": 139956
+  },
+  {
+    "lat": 31.2286008236065,
+    "lng": 121.4421021398623,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "京德大楼",
+    "pointIdx": 159064
+  },
+  {
+    "lat": 31.2285473311895,
+    "lng": 121.442159187613,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "常德路333弄小区",
+    "pointIdx": 119665
+  },
+  {
+    "lat": 31.230686315162,
+    "lng": 121.4403063287151,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "徐鸿兴藏书票展",
+    "pointIdx": 109395
+  },
+  {
+    "lat": 31.2308894464108,
+    "lng": 121.4386093546106,
+    "category": "government & public infrastructure",
+    "class": "governments at all levels",
+    "color": "#d7c1d1",
+    "name": "中共上海市静安区纪律检查委员会",
+    "pointIdx": 94204
+  },
+  {
+    "lat": 31.2309668136599,
+    "lng": 121.4406926565535,
+    "category": "education",
+    "class": "library",
+    "color": "#b4d8e7",
+    "name": "静安区图书馆",
+    "pointIdx": 29895
+  },
+  {
+    "lat": 31.2307081857159,
+    "lng": 121.44028830832,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "原海关图书馆馆址",
+    "pointIdx": 58794
+  },
+  {
+    "lat": 31.2308524834936,
+    "lng": 121.4386133642596,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市静安区监察委员会",
+    "pointIdx": 104449
+  },
+  {
+    "lat": 31.2310576121898,
+    "lng": 121.440811751891,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "江宁路街道有线电视管理站",
+    "pointIdx": 108156
+  },
+  {
+    "lat": 31.2308103526215,
+    "lng": 121.4435944422928,
+    "category": "healthcare",
+    "class": "specialist hospital",
+    "color": "#aaaaaa",
+    "name": "上海市儿童医院(北京西路院区)",
+    "pointIdx": 63840
+  },
+  {
+    "lat": 31.2268128742649,
+    "lng": 121.4424668635422,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "上海宏安瑞士大酒店-洗手间",
+    "pointIdx": 85206
+  },
+  {
+    "lat": 31.2255085595261,
+    "lng": 121.444613073139,
+    "category": "food & catering",
+    "class": "cake dessert shop",
+    "color": "#9b68f0",
+    "name": "Spicymoment六月半(上海静安嘉里中心店)",
+    "pointIdx": 144422
+  },
+  {
+    "lat": 31.225542406358,
+    "lng": 121.4425633795378,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "警务站",
+    "pointIdx": 98740
+  },
+  {
+    "lat": 31.226163821796,
+    "lng": 121.4457298618147,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "静安嘉里中心办公楼",
+    "pointIdx": 159211
+  },
+  {
+    "lat": 31.2263159106018,
+    "lng": 121.4450488088759,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "simply thai天泰(上海静安嘉里中心店)",
+    "pointIdx": 146226
+  },
+  {
+    "lat": 31.2260830235869,
+    "lng": 121.4455728996804,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "家全七福(上海静安嘉里中心店)",
+    "pointIdx": 157116
+  },
+  {
+    "lat": 31.2261539570223,
+    "lng": 121.4457408647262,
+    "category": "government & public infrastructure",
+    "class": "foreign institutions",
+    "color": "#d7c1d1",
+    "name": "秘鲁驻沪总领事馆",
+    "pointIdx": 91349
+  },
+  {
+    "lat": 31.2267744806216,
+    "lng": 121.4471753691118,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "恒悦尚品",
+    "pointIdx": 158235
+  },
+  {
+    "lat": 31.225660270866,
+    "lng": 121.444311962789,
+    "category": "social & entertainment",
+    "class": "cinema",
+    "color": "#CA8C00",
+    "name": "上海百美汇影城(上海静安嘉里中心店)",
+    "pointIdx": 117263
+  },
+  {
+    "lat": 31.227132936924,
+    "lng": 121.4451785379371,
+    "category": "food & catering",
+    "class": "cake dessert shop",
+    "color": "#9b68f0",
+    "name": "BREAD etc.(南京西路店)",
+    "pointIdx": 145136
+  },
+  {
+    "lat": 31.2258125772321,
+    "lng": 121.4455220038274,
+    "category": "healthcare",
+    "class": "physical examination institutions",
+    "color": "#aaaaaa",
+    "name": "双威国际健康咨询中心",
+    "pointIdx": 63675
+  },
+  {
+    "lat": 31.2271447913381,
+    "lng": 121.4442464228714,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "南京西路1522弄小区",
+    "pointIdx": 125039
+  },
+  {
+    "lat": 31.2258710441286,
+    "lng": 121.4447679504324,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "残障洗手间(静安嘉里中心北区)",
+    "pointIdx": 90184
+  },
+  {
+    "lat": 31.2264719273444,
+    "lng": 121.4457527492744,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "上海静安嘉里中心-洗手间",
+    "pointIdx": 87206
+  },
+  {
+    "lat": 31.2265214167796,
+    "lng": 121.4457117345808,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "华夏基金",
+    "pointIdx": 100095
+  },
+  {
+    "lat": 31.2264832513787,
+    "lng": 121.4456107532922,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "上海西技图文有限公司(铜仁路)",
+    "pointIdx": 83660
+  },
+  {
+    "lat": 31.226826717027,
+    "lng": 121.446491528049,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "上海展览中心-商务楼",
+    "pointIdx": 163451
+  },
+  {
+    "lat": 31.2264403307202,
+    "lng": 121.4457007637818,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "上海静安嘉里中心-停车场",
+    "pointIdx": 49846
+  },
+  {
+    "lat": 31.2271237835575,
+    "lng": 121.4451645403567,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "UNITEDPLAZA",
+    "pointIdx": 162635
+  },
+  {
+    "lat": 31.2274350045577,
+    "lng": 121.4452864468685,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "罗森便利店(中欣大厦店)",
+    "pointIdx": 4481
+  },
+  {
+    "lat": 31.2258231470741,
+    "lng": 121.4429934790656,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "上海德威英国国际学校(闵行校区)",
+    "pointIdx": 26520
+  },
+  {
+    "lat": 31.2266255826464,
+    "lng": 121.4471004432187,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "小荧星艺校(静安校区)",
+    "pointIdx": 26524
+  },
+  {
+    "lat": 31.2266950587666,
+    "lng": 121.4454316849219,
+    "category": "healthcare",
+    "class": "medical instruments",
+    "color": "#aaaaaa",
+    "name": "碧迪医疗器械有限公司",
+    "pointIdx": 63901
+  },
+  {
+    "lat": 31.2266416864956,
+    "lng": 121.4429911810562,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "张爱玲故居-爱林登公寓旧址",
+    "pointIdx": 59124
+  },
+  {
+    "lat": 31.2265150287992,
+    "lng": 121.4437475062715,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "上海市公安局静安分局经侦支队",
+    "pointIdx": 98000
+  },
+  {
+    "lat": 31.2264391198463,
+    "lng": 121.4431333126288,
+    "category": "healthcare",
+    "class": "clinic",
+    "color": "#aaaaaa",
+    "name": "维乐口腔(南京西路门诊)",
+    "pointIdx": 65101
+  },
+  {
+    "lat": 31.2265739731221,
+    "lng": 121.4430182162732,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "常德公寓",
+    "pointIdx": 121279
+  },
+  {
+    "lat": 31.2261112779133,
+    "lng": 121.4431314301068,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "轻工机械大厦",
+    "pointIdx": 160665
+  },
+  {
+    "lat": 31.2261951292361,
+    "lng": 121.4431203947108,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市财政局第二监督局",
+    "pointIdx": 104728
+  },
+  {
+    "lat": 31.2258544456054,
+    "lng": 121.4445269249464,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "景荣基金",
+    "pointIdx": 102762
+  },
+  {
+    "lat": 31.2258544135012,
+    "lng": 121.4445239244946,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "静安嘉里中心办公楼-2座",
+    "pointIdx": 162045
+  },
+  {
+    "lat": 31.2267513738955,
+    "lng": 121.4426329721808,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "上海宏安瑞士大酒店-多功能会议厅",
+    "pointIdx": 109330
+  },
+  {
+    "lat": 31.2269348967332,
+    "lng": 121.4465104883352,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "万耀企龙",
+    "pointIdx": 184528
+  },
+  {
+    "lat": 31.2257010826985,
+    "lng": 121.4434026922016,
+    "category": "travel & attractions",
+    "class": "scenic area",
+    "color": "#fdb38d",
+    "name": "时间的贵族气息",
+    "pointIdx": 60145
+  },
+  {
+    "lat": 31.2271471307108,
+    "lng": 121.4463774451061,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "富力公主湾",
+    "pointIdx": 129580
+  },
+  {
+    "lat": 31.2272619959655,
+    "lng": 121.4463714100038,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "富力公主湾国际展销中心",
+    "pointIdx": 109339
+  },
+  {
+    "lat": 31.2272382249928,
+    "lng": 121.4464693990862,
+    "category": "life services",
+    "class": "photo studio",
+    "color": "#199cd5",
+    "name": "天真蓝照相馆(静安寺店)",
+    "pointIdx": 72111
+  },
+  {
+    "lat": 31.2260968412498,
+    "lng": 121.4463898053494,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "安簃艺术空间",
+    "pointIdx": 109341
+  },
+  {
+    "lat": 31.2258568604013,
+    "lng": 121.4463808977226,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "铜仁路公房",
+    "pointIdx": 120062
+  },
+  {
+    "lat": 31.2261963709036,
+    "lng": 121.4456078564292,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "学美留学(上海静安嘉里中心店)",
+    "pointIdx": 26481
+  },
+  {
+    "lat": 31.2274733359555,
+    "lng": 121.4452294342266,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "博然思维",
+    "pointIdx": 27874
+  },
+  {
+    "lat": 31.2279789871714,
+    "lng": 121.4444012063976,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(东海广场店)",
+    "pointIdx": 1623
+  },
+  {
+    "lat": 31.2274781352016,
+    "lng": 121.4451234291814,
+    "category": "government & public infrastructure",
+    "class": "social groups",
+    "color": "#d7c1d1",
+    "name": "海归经纪人",
+    "pointIdx": 92958
+  },
+  {
+    "lat": 31.2279132595377,
+    "lng": 121.4458442879287,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市人民政府外事办公室",
+    "pointIdx": 105191
+  },
+  {
+    "lat": 31.2281966878921,
+    "lng": 121.4440960857049,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "Linckia海星客东海旗舰社区",
+    "pointIdx": 126224
+  },
+  {
+    "lat": 31.2279546886108,
+    "lng": 121.4440841477523,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "通用卫星导航",
+    "pointIdx": 176597
+  },
+  {
+    "lat": 31.2278465900774,
+    "lng": 121.444069174158,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "亚洲烧肉公司(静安寺店)",
+    "pointIdx": 146871
+  },
+  {
+    "lat": 31.2277887134569,
+    "lng": 121.4438821425347,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "东彩图文快印",
+    "pointIdx": 83445
+  },
+  {
+    "lat": 31.2278333170218,
+    "lng": 121.4438451197053,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "东海广场1号楼-西楼",
+    "pointIdx": 160343
+  },
+  {
+    "lat": 31.2276170054108,
+    "lng": 121.4460603497238,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "旅沪德侨住宅旧址",
+    "pointIdx": 59031
+  },
+  {
+    "lat": 31.2248870824019,
+    "lng": 121.4429308321802,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "茵欧百货",
+    "pointIdx": 5212
+  },
+  {
+    "lat": 31.2249983058925,
+    "lng": 121.4453733368731,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "FVILBUNNY(静安嘉里中心南区)",
+    "pointIdx": 54662
+  },
+  {
+    "lat": 31.2250067271464,
+    "lng": 121.4430078156098,
+    "category": "retail & shopping",
+    "class": "shopping center",
+    "color": "#44b4e6",
+    "name": "芮欧百货",
+    "pointIdx": 9590
+  },
+  {
+    "lat": 31.2250247634971,
+    "lng": 121.4430128101596,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "伦敦发展促进署上海办公室",
+    "pointIdx": 104194
+  },
+  {
+    "lat": 31.2248040368743,
+    "lng": 121.442920863573,
+    "category": "food & catering",
+    "class": "snack fast food restaurant",
+    "color": "#9b68f0",
+    "name": "乐忻皇朝(芮欧百货店)",
+    "pointIdx": 150304
+  },
+  {
+    "lat": 31.2248726856295,
+    "lng": 121.4433139995094,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "永恒印记",
+    "pointIdx": 83988
+  },
+  {
+    "lat": 31.2248967681828,
+    "lng": 121.4451453757464,
+    "category": "food & catering",
+    "class": "cafe",
+    "color": "#9b68f0",
+    "name": "wheelysCAFE(上海静安嘉里中心店)",
+    "pointIdx": 143980
+  },
+  {
+    "lat": 31.2249217124724,
+    "lng": 121.4445973147922,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "上海静安嘉里中心-残障洗手间",
+    "pointIdx": 87225
+  },
+  {
+    "lat": 31.2249032126735,
+    "lng": 121.443053880054,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "财富集团(中国)",
+    "pointIdx": 192367
+  },
+  {
+    "lat": 31.2247952006119,
+    "lng": 121.4431529688468,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "大董烤鸭店(越洋广场店)",
+    "pointIdx": 157682
+  },
+  {
+    "lat": 31.2248880641658,
+    "lng": 121.4424836078095,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "COOK&BOOK(芮欧百货店)",
+    "pointIdx": 28145
+  },
+  {
+    "lat": 31.2250558227894,
+    "lng": 121.4429127518723,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "洛城河越南美食(芮欧百货店)",
+    "pointIdx": 146202
+  },
+  {
+    "lat": 31.2247602955331,
+    "lng": 121.4431609874041,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "越洋广场商务楼",
+    "pointIdx": 163059
+  },
+  {
+    "lat": 31.2250597717194,
+    "lng": 121.4462572409523,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "上海静安嘉里中心-地下车库",
+    "pointIdx": 50322
+  },
+  {
+    "lat": 31.225066877812,
+    "lng": 121.4453393076043,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "东陶有限公司",
+    "pointIdx": 186467
+  },
+  {
+    "lat": 31.2250790956071,
+    "lng": 121.4451832992645,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "PINTXOS(上海静安嘉里中心店)",
+    "pointIdx": 146207
+  },
+  {
+    "lat": 31.2251103589455,
+    "lng": 121.445811272123,
+    "category": "travel & attractions",
+    "class": "star hotels",
+    "color": "#fdb38d",
+    "name": "上海静安香格里拉",
+    "pointIdx": 61158
+  },
+  {
+    "lat": 31.2251122973636,
+    "lng": 121.4458052524807,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "拳击泰拳健身",
+    "pointIdx": 53965
+  },
+  {
+    "lat": 31.2253114042277,
+    "lng": 121.4432047718236,
+    "category": "food & catering",
+    "class": "cake dessert shop",
+    "color": "#9b68f0",
+    "name": "1点点(芮欧百货店)",
+    "pointIdx": 145922
+  },
+  {
+    "lat": 31.2253112295296,
+    "lng": 121.4467060476518,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "VOTEKICK",
+    "pointIdx": 161569
+  },
+  {
+    "lat": 31.2251967121004,
+    "lng": 121.4439430657388,
+    "category": "travel & attractions",
+    "class": "ticket office",
+    "color": "#fdb38d",
+    "name": "售票处",
+    "pointIdx": 56651
+  },
+  {
+    "lat": 31.2251449117498,
+    "lng": 121.4446272241591,
+    "category": "retail & shopping",
+    "class": "shopping center",
+    "color": "#44b4e6",
+    "name": "上海静安嘉里中心-南区商场",
+    "pointIdx": 9374
+  },
+  {
+    "lat": 31.2252737221465,
+    "lng": 121.4426945558803,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "芮欧百货-男卫生间",
+    "pointIdx": 86050
+  },
+  {
+    "lat": 31.2253450272893,
+    "lng": 121.4451901888371,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "1920年毛泽东寓所旧址",
+    "pointIdx": 58786
+  },
+  {
+    "lat": 31.2258623111821,
+    "lng": 121.441618668432,
+    "category": "life services",
+    "class": "housekeeping",
+    "color": "#199cd5",
+    "name": "西厕保洁",
+    "pointIdx": 74962
+  },
+  {
+    "lat": 31.2258623111821,
+    "lng": 121.441618668432,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "西厕保洁",
+    "pointIdx": 89498
+  },
+  {
+    "lat": 31.2282341362214,
+    "lng": 121.4409704056655,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "智力苑电玩专卖(静安店)",
+    "pointIdx": 127400
+  },
+  {
+    "lat": 31.2275321641003,
+    "lng": 121.4418352536264,
+    "category": "retail & shopping",
+    "class": "shopping center",
+    "color": "#44b4e6",
+    "name": "晶品crystal galleria",
+    "pointIdx": 9460
+  },
+  {
+    "lat": 31.2267467706904,
+    "lng": 121.4423358123536,
+    "category": "travel & attractions",
+    "class": "star hotels",
+    "color": "#fdb38d",
+    "name": "上海宏安瑞士大酒店",
+    "pointIdx": 61162
+  },
+  {
+    "lat": 31.2271474560718,
+    "lng": 121.4415972057762,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "7-11便利店(晶品店)",
+    "pointIdx": 4741
+  },
+  {
+    "lat": 31.2259744189516,
+    "lng": 121.4398844656069,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "HOT健身定制工作室(环球一店)",
+    "pointIdx": 53104
+  },
+  {
+    "lat": 31.2264945767668,
+    "lng": 121.438793617495,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "金航大厦-A座",
+    "pointIdx": 161989
+  },
+  {
+    "lat": 31.2266303158858,
+    "lng": 121.4389507704274,
+    "category": "life services",
+    "class": "post office",
+    "color": "#199cd5",
+    "name": "中国邮政(静安邮政支局)",
+    "pointIdx": 71057
+  },
+  {
+    "lat": 31.2260841418879,
+    "lng": 121.4397529040903,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "环球世界大厦",
+    "pointIdx": 159384
+  },
+  {
+    "lat": 31.227459640631,
+    "lng": 121.4411207455392,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "愚园路胶州路",
+    "pointIdx": 47765
+  },
+  {
+    "lat": 31.2266052977651,
+    "lng": 121.4389447714351,
+    "category": "government & public infrastructure",
+    "class": "governments at all levels",
+    "color": "#d7c1d1",
+    "name": "静安区静安寺街道办",
+    "pointIdx": 94223
+  },
+  {
+    "lat": 31.2262050513597,
+    "lng": 121.4413523436852,
+    "category": "transportation",
+    "class": "parking lot",
+    "color": "#28cfd7",
+    "name": "久光百货(上海店)-停车场",
+    "pointIdx": 50161
+  },
+  {
+    "lat": 31.2267807624237,
+    "lng": 121.4392340667821,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "柳迎邨",
+    "pointIdx": 120359
+  },
+  {
+    "lat": 31.2273748355381,
+    "lng": 121.440583305321,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "胶州大楼",
+    "pointIdx": 159444
+  },
+  {
+    "lat": 31.2263629009512,
+    "lng": 121.441473378313,
+    "category": "social & entertainment",
+    "class": "art gallery",
+    "color": "#CA8C00",
+    "name": "夕才儿美术馆(久光百货店)",
+    "pointIdx": 110237
+  },
+  {
+    "lat": 31.2271218757846,
+    "lng": 121.439104799983,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "上博便利店",
+    "pointIdx": 8209
+  },
+  {
+    "lat": 31.2259996171773,
+    "lng": 121.4416103000655,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "威尔仕健身(上海静安久光店)",
+    "pointIdx": 51607
+  },
+  {
+    "lat": 31.2277195337629,
+    "lng": 121.4413888803705,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "警卫室(晶品crystal galleria)",
+    "pointIdx": 98036
+  },
+  {
+    "lat": 31.22677329831,
+    "lng": 121.4404583801159,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "新安旅行团(旧址)",
+    "pointIdx": 59252
+  },
+  {
+    "lat": 31.2266978917312,
+    "lng": 121.4424618994217,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "上海宏安瑞士大酒店-游泳池",
+    "pointIdx": 55735
+  },
+  {
+    "lat": 31.2271782654883,
+    "lng": 121.4391818758828,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安居委临时办公点",
+    "pointIdx": 107024
+  },
+  {
+    "lat": 31.2270042787082,
+    "lng": 121.4418154032694,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "富邦晶品大厦",
+    "pointIdx": 162961
+  },
+  {
+    "lat": 31.2270850419982,
+    "lng": 121.4393130617086,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "徳邦(北京西路公司)",
+    "pointIdx": 79053
+  },
+  {
+    "lat": 31.2279638912598,
+    "lng": 121.4419512074681,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "男洗手间(晶品)",
+    "pointIdx": 87871
+  },
+  {
+    "lat": 31.2271035702476,
+    "lng": 121.4400698898901,
+    "category": "social & entertainment",
+    "class": "cultural palace",
+    "color": "#CA8C00",
+    "name": "上海市静安区青少年活动中心",
+    "pointIdx": 114324
+  },
+  {
+    "lat": 31.2273080156557,
+    "lng": 121.44074747409,
+    "category": "government & public infrastructure",
+    "class": "social groups",
+    "color": "#d7c1d1",
+    "name": "上海市静安区外商投资企业协会",
+    "pointIdx": 92996
+  },
+  {
+    "lat": 31.2275324513697,
+    "lng": 121.441747193755,
+    "category": "life services",
+    "class": "photo studio",
+    "color": "#199cd5",
+    "name": "上海太郎花子婚纱摄影(上海1店)",
+    "pointIdx": 72354
+  },
+  {
+    "lat": 31.2278137456704,
+    "lng": 121.440457059694,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "公共厕所",
+    "pointIdx": 84770
+  },
+  {
+    "lat": 31.2273799572249,
+    "lng": 121.4406013203249,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "国家税务总局上海市税务局第四税务分局",
+    "pointIdx": 101772
+  },
+  {
+    "lat": 31.2267064679189,
+    "lng": 121.4419415851339,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "中共上海地下组织斗争史陈列馆",
+    "pointIdx": 59319
+  },
+  {
+    "lat": 31.2271732210531,
+    "lng": 121.4414410832226,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "晶品crystal galleria-残障洗手间",
+    "pointIdx": 86184
+  },
+  {
+    "lat": 31.2277069592574,
+    "lng": 121.4393559248727,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "公共厕所",
+    "pointIdx": 86513
+  },
+  {
+    "lat": 31.2272533408678,
+    "lng": 121.4417735614764,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "舒适堡(晶品店)",
+    "pointIdx": 53216
+  },
+  {
+    "lat": 31.2273080156557,
+    "lng": 121.44074747409,
+    "category": "government & public infrastructure",
+    "class": "broadcasting",
+    "color": "#d7c1d1",
+    "name": "上海莱玛影视传媒有限公司",
+    "pointIdx": 90930
+  },
+  {
+    "lat": 31.2266253124035,
+    "lng": 121.4411520379461,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "付小姐在成都(静安店)",
+    "pointIdx": 157093
+  },
+  {
+    "lat": 31.2276434897798,
+    "lng": 121.4388943809763,
+    "category": "social & entertainment",
+    "class": "game place",
+    "color": "#CA8C00",
+    "name": "云峰大饭店-棋牌室",
+    "pointIdx": 117755
+  },
+  {
+    "lat": 31.2264606802424,
+    "lng": 121.4406356515436,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "胶州路11弄",
+    "pointIdx": 119993
+  },
+  {
+    "lat": 31.2274764483809,
+    "lng": 121.4417432076139,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "合丰基金",
+    "pointIdx": 104617
+  },
+  {
+    "lat": 31.2281237914785,
+    "lng": 121.4400305536266,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(胶州二店)",
+    "pointIdx": 4748
+  },
+  {
+    "lat": 31.2265874100169,
+    "lng": 121.4423999028276,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "竹若金枪鱼(静安寺店)",
+    "pointIdx": 154498
+  },
+  {
+    "lat": 31.2279675852529,
+    "lng": 121.4408753953305,
+    "category": "life services",
+    "class": "lottery point of sale",
+    "color": "#199cd5",
+    "name": "中国福利彩票(北京西路店)",
+    "pointIdx": 69265
+  },
+  {
+    "lat": 31.227390156477,
+    "lng": 121.4397044132045,
+    "category": "government & public infrastructure",
+    "class": "utilities",
+    "color": "#d7c1d1",
+    "name": "上海亿众劳务服务有限公司",
+    "pointIdx": 92632
+  },
+  {
+    "lat": 31.2279252673528,
+    "lng": 121.4384767555556,
+    "category": "travel & attractions",
+    "class": "ticket office",
+    "color": "#fdb38d",
+    "name": "云峰剧院售票处",
+    "pointIdx": 56763
+  },
+  {
+    "lat": 31.2262006807735,
+    "lng": 121.4396867889592,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "三立国际教育(静安总部)",
+    "pointIdx": 27220
+  },
+  {
+    "lat": 31.2281027505618,
+    "lng": 121.4385958673908,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "云峰大饭店-会议室",
+    "pointIdx": 109714
+  },
+  {
+    "lat": 31.22504125137,
+    "lng": 121.442232799671,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "彪马瑜伽(芮欧百货店)",
+    "pointIdx": 53366
+  },
+  {
+    "lat": 31.2254832138405,
+    "lng": 121.440490883984,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "友谊商店(华山路店)",
+    "pointIdx": 1501
+  },
+  {
+    "lat": 31.2252294749948,
+    "lng": 121.4409353850742,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "观音殿",
+    "pointIdx": 58710
+  },
+  {
+    "lat": 31.225246824168,
+    "lng": 121.4420101770248,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "静安寺(南京西路)",
+    "pointIdx": 35880
+  },
+  {
+    "lat": 31.2253427391499,
+    "lng": 121.4416368862139,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "京都上品",
+    "pointIdx": 128605
+  },
+  {
+    "lat": 31.2252643891616,
+    "lng": 121.4417129717839,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "富泽商店",
+    "pointIdx": 8236
+  },
+  {
+    "lat": 31.2258323508656,
+    "lng": 121.4395978270871,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "静安寺",
+    "pointIdx": 42525
+  },
+  {
+    "lat": 31.2348824423005,
+    "lng": 121.4383499624148,
+    "category": "life services",
+    "class": "public toilet",
+    "color": "#199cd5",
+    "name": "洗手间",
+    "pointIdx": 87587
+  },
+  {
+    "lat": 31.2350867771007,
+    "lng": 121.4374957320617,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "华谊集团大厦",
+    "pointIdx": 163103
+  },
+  {
+    "lat": 31.2354203301765,
+    "lng": 121.4376750453712,
+    "category": "life services",
+    "class": "pet service",
+    "color": "#199cd5",
+    "name": "千航轩宠物(昌平路站店)",
+    "pointIdx": 75587
+  },
+  {
+    "lat": 31.235909418005,
+    "lng": 121.4379885767792,
+    "category": "life services",
+    "class": "communication business hall",
+    "color": "#199cd5",
+    "name": "中国移动(常德路营业厅)",
+    "pointIdx": 76772
+  },
+  {
+    "lat": 31.235666583711,
+    "lng": 121.4380045654216,
+    "category": "transportation",
+    "class": "subway station",
+    "color": "#28cfd7",
+    "name": "昌平路",
+    "pointIdx": 33332
+  },
+  {
+    "lat": 31.2359123981218,
+    "lng": 121.4382128973636,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "成长季跆拳道馆",
+    "pointIdx": 56152
+  },
+  {
+    "lat": 31.2355827701553,
+    "lng": 121.4382659253641,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "联宝里居民区微型消防站",
+    "pointIdx": 99755
+  },
+  {
+    "lat": 31.2356549082149,
+    "lng": 121.4378423263164,
+    "category": "travel & attractions",
+    "class": "ticket office",
+    "color": "#fdb38d",
+    "name": "售票处",
+    "pointIdx": 57003
+  },
+  {
+    "lat": 31.2360984504216,
+    "lng": 121.4382409652216,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "德安大厦",
+    "pointIdx": 159931
+  },
+  {
+    "lat": 31.23554718836,
+    "lng": 121.4376520264642,
+    "category": "social & entertainment",
+    "class": "exhibition hall",
+    "color": "#CA8C00",
+    "name": "碧桂园(上海)国际展销中心",
+    "pointIdx": 109772
+  },
+  {
+    "lat": 31.2363047703184,
+    "lng": 121.438290147198,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "靠谱健身",
+    "pointIdx": 51932
+  },
+  {
+    "lat": 31.2314975017237,
+    "lng": 121.4369658394342,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "武定路延平路",
+    "pointIdx": 47146
+  },
+  {
+    "lat": 31.2325230481325,
+    "lng": 121.4377950895434,
+    "category": "life services",
+    "class": "graphic print shop",
+    "color": "#199cd5",
+    "name": "文云印务",
+    "pointIdx": 83541
+  },
+  {
+    "lat": 31.2303398394844,
+    "lng": 121.4377401984929,
+    "category": "sports",
+    "class": "stadium",
+    "color": "#4edfc3",
+    "name": "上海名流高尔夫俱乐部",
+    "pointIdx": 55076
+  },
+  {
+    "lat": 31.231563777215,
+    "lng": 121.4376168732077,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "宝石花都市工业楼宇",
+    "pointIdx": 160118
+  },
+  {
+    "lat": 31.2322406928379,
+    "lng": 121.4381526199436,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "12320上海公共卫生公益电话咨询服务中心",
+    "pointIdx": 99738
+  },
+  {
+    "lat": 31.2318357377273,
+    "lng": 121.4376388868846,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "静安晨发杂货店",
+    "pointIdx": 6285
+  },
+  {
+    "lat": 31.2309667841411,
+    "lng": 121.4382648777417,
+    "category": "life services",
+    "class": "lottery point of sale",
+    "color": "#199cd5",
+    "name": "中国福利彩票(胶州路店)",
+    "pointIdx": 70539
+  },
+  {
+    "lat": 31.230892769063,
+    "lng": 121.4382538708462,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "Home+弘苜房产",
+    "pointIdx": 165975
+  },
+  {
+    "lat": 31.2312408843385,
+    "lng": 121.4383149184415,
+    "category": "life services",
+    "class": "communication business hall",
+    "color": "#199cd5",
+    "name": "中国电信(胶州路专营店)",
+    "pointIdx": 76571
+  },
+  {
+    "lat": 31.2323453903964,
+    "lng": 121.4378591907987,
+    "category": "government & public infrastructure",
+    "class": "governments at all levels",
+    "color": "#d7c1d1",
+    "name": "青浦西岑经济城胶州路办事处",
+    "pointIdx": 93388
+  },
+  {
+    "lat": 31.2298041913282,
+    "lng": 121.4377633187742,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "云和花园",
+    "pointIdx": 130387
+  },
+  {
+    "lat": 31.231735744794,
+    "lng": 121.4373624645593,
+    "category": "travel & attractions",
+    "class": "express inn",
+    "color": "#fdb38d",
+    "name": "汉庭酒店(静安寺店)",
+    "pointIdx": 63273
+  },
+  {
+    "lat": 31.229772678732,
+    "lng": 121.4370752439797,
+    "category": "healthcare",
+    "class": "medical instruments",
+    "color": "#aaaaaa",
+    "name": "上海恒馨医疗器械有限公司",
+    "pointIdx": 64071
+  },
+  {
+    "lat": 31.2297702723967,
+    "lng": 121.4369500372342,
+    "category": "education",
+    "class": "research institutions",
+    "color": "#b4d8e7",
+    "name": "汲原堂文化传播公司-汉字文化研究",
+    "pointIdx": 29707
+  },
+  {
+    "lat": 31.231637657483,
+    "lng": 121.4367123997904,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海静安区曹家渡街道睦鄰鸿业业主委员会事务所",
+    "pointIdx": 105966
+  },
+  {
+    "lat": 31.2318086846523,
+    "lng": 121.4370659814971,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "中信旅游",
+    "pointIdx": 188776
+  },
+  {
+    "lat": 31.2303694634323,
+    "lng": 121.4364300462934,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "三和大厦",
+    "pointIdx": 159092
+  },
+  {
+    "lat": 31.2306352527681,
+    "lng": 121.4370660897098,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "F45 Training(静安店)",
+    "pointIdx": 51658
+  },
+  {
+    "lat": 31.2313095008466,
+    "lng": 121.4362265690356,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "延平便利店",
+    "pointIdx": 6071
+  },
+  {
+    "lat": 31.2303333102347,
+    "lng": 121.4363649354575,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "朗鹰教育",
+    "pointIdx": 28033
+  },
+  {
+    "lat": 31.2299284494032,
+    "lng": 121.4367065979944,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市房地产经纪人绿色联盟(延平路)",
+    "pointIdx": 105924
+  },
+  {
+    "lat": 31.2315616631307,
+    "lng": 121.4373174063052,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "grinder(绞肉机)burger(武定路店)",
+    "pointIdx": 146315
+  },
+  {
+    "lat": 31.2323919345706,
+    "lng": 121.4361974456622,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "康定路890弄小区",
+    "pointIdx": 134379
+  },
+  {
+    "lat": 31.2302708263965,
+    "lng": 121.4371903507055,
+    "category": "food & catering",
+    "class": "foreign restaurant",
+    "color": "#9b68f0",
+    "name": "RAW EATERY AND WOOD GRILL",
+    "pointIdx": 146192
+  },
+  {
+    "lat": 31.2301892507603,
+    "lng": 121.4373005400175,
+    "category": "businesses & manufacturing",
+    "class": "company",
+    "color": "#73a5e8",
+    "name": "阳狮广告有限公司",
+    "pointIdx": 174611
+  },
+  {
+    "lat": 31.2326359728697,
+    "lng": 121.4372602592292,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "上海市公安局静安分局",
+    "pointIdx": 96606
+  },
+  {
+    "lat": 31.232952750104,
+    "lng": 121.4362244829308,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "康定路延平路",
+    "pointIdx": 46587
+  },
+  {
+    "lat": 31.2327789624031,
+    "lng": 121.4378020941652,
+    "category": "travel & attractions",
+    "class": "ancient artifacts",
+    "color": "#fdb38d",
+    "name": "周诚浒旧居",
+    "pointIdx": 59136
+  },
+  {
+    "lat": 31.2330906896466,
+    "lng": 121.4369367247201,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "上海市医疗保险监督检查所",
+    "pointIdx": 101316
+  },
+  {
+    "lat": 31.2329614049894,
+    "lng": 121.4360802183921,
+    "category": "retail & shopping",
+    "class": "store",
+    "color": "#44b4e6",
+    "name": "古寺食品",
+    "pointIdx": 18219
+  },
+  {
+    "lat": 31.2334139523228,
+    "lng": 121.4363847743489,
+    "category": "healthcare",
+    "class": "specialist hospital",
+    "color": "#aaaaaa",
+    "name": "上海市静安区精神卫生中心",
+    "pointIdx": 63847
+  },
+  {
+    "lat": 31.2339611513649,
+    "lng": 121.4374696055724,
+    "category": "education",
+    "class": "middle school",
+    "color": "#b4d8e7",
+    "name": "上海戏剧学院附属高级中学",
+    "pointIdx": 24200
+  },
+  {
+    "lat": 31.2336001365012,
+    "lng": 121.437931289659,
+    "category": "government & public infrastructure",
+    "class": "governments at all levels",
+    "color": "#d7c1d1",
+    "name": "静安区政协",
+    "pointIdx": 93774
+  },
+  {
+    "lat": 31.2335531451541,
+    "lng": 121.4376829186985,
+    "category": "businesses & manufacturing",
+    "class": "real estate agency",
+    "color": "#73a5e8",
+    "name": "易居房友",
+    "pointIdx": 164687
+  },
+  {
+    "lat": 31.2334679432245,
+    "lng": 121.4378711982049,
+    "category": "life services",
+    "class": "logistics company",
+    "color": "#199cd5",
+    "name": "优速快递代理点",
+    "pointIdx": 80199
+  },
+  {
+    "lat": 31.2336712635184,
+    "lng": 121.4365420588533,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "安乐村",
+    "pointIdx": 121062
+  },
+  {
+    "lat": 31.2343656396316,
+    "lng": 121.4370900221284,
+    "category": "social & entertainment",
+    "class": "cultural palace",
+    "color": "#CA8C00",
+    "name": "宝钢集团有限公司上海冶金老干部活动中心",
+    "pointIdx": 114411
+  },
+  {
+    "lat": 31.2348354398591,
+    "lng": 121.438287268422,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "中田健身工作室(昌平路店)",
+    "pointIdx": 53409
+  },
+  {
+    "lat": 31.2269189949341,
+    "lng": 121.4380825078123,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "玖玺",
+    "pointIdx": 130467
+  },
+  {
+    "lat": 31.2278577561788,
+    "lng": 121.4383606157754,
+    "category": "businesses & manufacturing",
+    "class": "office building",
+    "color": "#73a5e8",
+    "name": "静安华晟商务楼-3号楼",
+    "pointIdx": 159995
+  },
+  {
+    "lat": 31.2278533541238,
+    "lng": 121.4380471757421,
+    "category": "government & public infrastructure",
+    "class": "administrative unit",
+    "color": "#d7c1d1",
+    "name": "静安南西心悦劳动保障咨询服务社",
+    "pointIdx": 101717
+  },
+  {
+    "lat": 31.2278533541238,
+    "lng": 121.4380471757421,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "曹家渡忠忠日用杂货服务社",
+    "pointIdx": 6095
+  },
+  {
+    "lat": 31.2295179886767,
+    "lng": 121.4383752489648,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "新闸路胶州路",
+    "pointIdx": 43459
+  },
+  {
+    "lat": 31.2284822867437,
+    "lng": 121.4376213800783,
+    "category": "residential",
+    "class": "residents committee",
+    "color": "#f78871",
+    "name": "上海市静安区静安寺街道三义坊居民委员会",
+    "pointIdx": 139940
+  },
+  {
+    "lat": 31.2284239840699,
+    "lng": 121.4377896486128,
+    "category": "residential",
+    "class": "housing estate",
+    "color": "#f78871",
+    "name": "三义坊",
+    "pointIdx": 131363
+  },
+  {
+    "lat": 31.2289627368647,
+    "lng": 121.4374760804712,
+    "category": "sports",
+    "class": "gym",
+    "color": "#4edfc3",
+    "name": "K&B健身俱乐部(新闸路店)",
+    "pointIdx": 53585
+  },
+  {
+    "lat": 31.2287514343508,
+    "lng": 121.4374320232788,
+    "category": "transportation",
+    "class": "bus stop",
+    "color": "#28cfd7",
+    "name": "新闸路延平路",
+    "pointIdx": 42337
+  },
+  {
+    "lat": 31.228739799252,
+    "lng": 121.4372537431742,
+    "category": "food & catering",
+    "class": "chinese restaurant",
+    "color": "#9b68f0",
+    "name": "新镇江食府(静安寺店)",
+    "pointIdx": 156686
+  },
+  {
+    "lat": 31.2288368977841,
+    "lng": 121.4378195958155,
+    "category": "retail & shopping",
+    "class": "convenience store",
+    "color": "#44b4e6",
+    "name": "全家便利店(新闸路三店)",
+    "pointIdx": 3746
+  },
+  {
+    "lat": 31.2296181975362,
+    "lng": 121.4382130049744,
+    "category": "education",
+    "class": "training institutions",
+    "color": "#b4d8e7",
+    "name": "雅马哈音乐中心(新闸路店)",
+    "pointIdx": 27753
+  },
+  {
+    "lat": 31.2284170509775,
+    "lng": 121.4382693428725,
+    "category": "social & entertainment",
+    "class": "theater",
+    "color": "#CA8C00",
+    "name": "云峰剧院(北京西路店)",
+    "pointIdx": 117139
+  },
+  {
+    "lat": 31.2291060327012,
+    "lng": 121.4381189730397,
+    "category": "social & entertainment",
+    "class": "cultural palace",
+    "color": "#CA8C00",
+    "name": "静安寺社区文化活动中心",
+    "pointIdx": 114445
+  },
+  {
+    "lat": 31.2284554881523,
+    "lng": 121.4376694598709,
+    "category": "government & public infrastructure",
+    "class": "public procuratorate",
+    "color": "#d7c1d1",
+    "name": "静安寺派出所三义坊警务室",
+    "pointIdx": 97243
+  }
+]
