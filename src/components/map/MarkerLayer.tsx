@@ -1,5 +1,5 @@
-import { Coordinate, useMapStore } from '@/models/useMapStore';
-import React, { useEffect, useState } from 'react';
+import { Coordinate, useMapStore } from "@/models/useMapStore";
+import React, { useEffect, useState } from "react";
 import {
   CircleLayer,
   FillLayer,
@@ -10,18 +10,18 @@ import {
   RasterLayer,
   Source,
   SymbolLayer,
-} from 'react-map-gl';
-import _ from 'lodash';
+} from "react-map-gl";
+import _ from "lodash";
 
 const VITE_MAP_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-const MAIN_COLOR = '#12372A';
+const MAIN_COLOR = "#12372A";
 interface MakerLayerProps {
   hoverCoord: Coordinate;
   hoverMarker: any;
 }
 
-const DataDir = '../data/case3/';
+const DataDir = "../data/case3/";
 
 const MakerLayer = (props: MakerLayerProps) => {
   const { hoverCoord, hoverMarker } = props;
@@ -29,11 +29,11 @@ const MakerLayer = (props: MakerLayerProps) => {
   const [routeData, setRouteData] = useState<any>({});
 
   const symbolLayer: SymbolLayer = {
-    id: 'points',
-    type: 'symbol',
-    source: 'points',
+    id: "points",
+    type: "symbol",
+    source: "points",
     layout: {
-      'icon-image': 'custom-marker',
+      "icon-image": "custom-marker",
       // get the title name from the source's "title" property
       //   "text-field": ["get", "title"],
       //   "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
@@ -43,52 +43,56 @@ const MakerLayer = (props: MakerLayerProps) => {
   };
 
   const polygonLayer: FillLayer = {
-    id: 'polygons',
-    type: 'fill',
+    id: "polygons",
+    type: "fill",
+    source: "",
     paint: {
-      'fill-color': '#CBEEFE',
-      'fill-opacity': 0.5,
+      "fill-color": "#CBEEFE",
+      "fill-opacity": 0.5,
     },
   };
 
   const lineLayer: LineLayer = {
-    id: 'lines',
-    type: 'line',
+    id: "lines",
+    type: "line",
+    source: "",
     paint: {
-      'line-color': 'red',
-      'line-width': 2,
+      "line-color": "red",
+      "line-width": 2,
     },
   };
 
   const routeDirectLayer: SymbolLayer = {
-    id: 'routearrows',
-    type: 'symbol',
+    id: "routearrows",
+    type: "symbol",
+    source: "",
     layout: {
-      'symbol-placement': 'line',
-      'text-field': '▶',
-      'text-size': ['interpolate', ['linear'], ['zoom'], 12, 24, 22, 60],
-      'symbol-spacing': ['interpolate', ['linear'], ['zoom'], 12, 30, 22, 160],
-      'text-keep-upright': false,
+      "symbol-placement": "line",
+      "text-field": "▶",
+      "text-size": ["interpolate", ["linear"], ["zoom"], 12, 24, 22, 60],
+      "symbol-spacing": ["interpolate", ["linear"], ["zoom"], 12, 30, 22, 160],
+      "text-keep-upright": false,
     },
     paint: {
-      'text-color': MAIN_COLOR,
-      'text-halo-color': 'hsl(55, 11%, 96%)',
-      'text-halo-width': 3,
-      'text-opacity': 0.7,
+      "text-color": MAIN_COLOR,
+      "text-halo-color": "hsl(55, 11%, 96%)",
+      "text-halo-width": 3,
+      "text-opacity": 0.7,
     },
   };
 
   const routeLayer: LineLayer = {
-    id: 'route',
-    type: 'line',
+    id: "route",
+    type: "line",
+    source: "",
     layout: {
-      'line-join': 'round',
-      'line-cap': 'round',
+      "line-join": "round",
+      "line-cap": "round",
     },
     paint: {
-      'line-color': MAIN_COLOR,
-      'line-opacity': 0.8,
-      'line-width': ['interpolate', ['linear'], ['zoom'], 12, 2, 22, 12],
+      "line-color": MAIN_COLOR,
+      "line-opacity": 0.8,
+      "line-width": ["interpolate", ["linear"], ["zoom"], 12, 2, 22, 12],
     },
   };
 
@@ -99,21 +103,21 @@ const MakerLayer = (props: MakerLayerProps) => {
       const response = await fetch(`${DataDir}line.geojson`);
       lineGeoJson = await response.json();
     } catch (error) {
-      console.error('Error fetching JSON data:', error);
+      console.error("Error fetching JSON data:", error);
     }
     const lineCorrds = lineGeoJson.features[0].geometry.coordinates;
     console.log(lineCorrds);
 
     const DirectionsUrl =
-      'https://api.mapbox.com/directions/v5/mapbox/driving/';
+      "https://api.mapbox.com/directions/v5/mapbox/driving/";
     const OptimizedUrl =
-      'https://api.mapbox.com/optimized-trips/v1/mapbox/driving/';
+      "https://api.mapbox.com/optimized-trips/v1/mapbox/driving/";
 
     let routes;
     try {
       const query = await fetch(
         `${OptimizedUrl}${lineCorrds.join(
-          ';'
+          ";"
         )}?geometries=geojson&access_token=${VITE_MAP_TOKEN}`
       );
       const json = await query.json();
@@ -121,15 +125,15 @@ const MakerLayer = (props: MakerLayerProps) => {
       routes = json.trips[0];
       console.log(routes);
     } catch (error) {
-      console.error('Error fetching JSON data:', error);
+      console.error("Error fetching JSON data:", error);
     }
 
     const route = routes.geometry.coordinates;
     const routeGeojson = {
-      type: 'Feature',
+      type: "Feature",
       properties: {},
       geometry: {
-        type: 'LineString',
+        type: "LineString",
         coordinates: route.slice(0, -1), // 不返回起点
       },
     };

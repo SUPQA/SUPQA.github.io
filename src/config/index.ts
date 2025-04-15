@@ -14,10 +14,11 @@ export const imgLatLngBound = [
 ];
 export const heatImgSize: [number, number] = [4000, 4200];
 
+const VITE_MAP_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
+
 export const mapTiles = {
-  base: `https://api.mapbox.com/styles/v1/heavenmei117/clurxbque00v401qqfgbjar0i/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiaGVhdmVubWVpMTE3IiwiYSI6ImNscTM1dGo2YjA5Zmgyam1zenZkc2dkc24ifQ.07c6UE5RFGkwlJ3rg_vMeA&fresh=true`,
-  roadOnly:
-    'https://api.mapbox.com/styles/v1/billchen2k/clfdky8k2001301pi5r1wiwzu/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYmlsbGNoZW4yayIsImEiOiJja3R2MDBwNWgyNDljMnBvMmdzbnU0dTZ5In0.To49SgD0gHYceQ8Ap2BG3g',
+  base: `https://api.mapbox.com/styles/v1/heavenmei117/clurxbque00v401qqfgbjar0i/tiles/256/{z}/{x}/{y}@2x?access_token=${VITE_MAP_TOKEN}`,
+  roadOnly: `https://api.mapbox.com/styles/v1/billchen2k/clfdky8k2001301pi5r1wiwzu/tiles/256/{z}/{x}/{y}@2x?access_token=${VITE_MAP_TOKEN}`,
 };
 export const throttleTime = 100;
 export const semanticArr: string[] = [

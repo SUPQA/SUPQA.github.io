@@ -1,5 +1,5 @@
-import React, { useCallback, useMemo, useState } from 'react';
-import { useEffect, useRef } from 'react';
+import React, { useCallback, useMemo, useState } from "react";
+import { useEffect, useRef } from "react";
 import Map, {
   MapProvider,
   FullscreenControl,
@@ -10,21 +10,21 @@ import Map, {
   Layer,
   Marker,
   useControl,
-} from 'react-map-gl';
-import mapboxgl from 'mapbox-gl';
-import MapboxDraw from '@mapbox/mapbox-gl-draw';
-import { MAP_STYLE } from '@/config';
-import { useMapStore } from '@/models/useMapStore';
-import { GEOTYPE, useMaskerStore } from '@/models/useMaskerStore';
-import ImgLayer from './ImgLayer';
-import POILayer from './POILayer';
-import MaskLayer from './MaskLayer';
-import { getDistance } from '@/lib/utils';
-import ProvinceLayer from './ProvinceLayer';
+} from "react-map-gl";
+import mapboxgl from "mapbox-gl";
+import MapboxDraw from "@mapbox/mapbox-gl-draw";
+import { MAP_STYLE } from "@/config";
+import { useMapStore } from "@/models/useMapStore";
+import { GEOTYPE, useMaskerStore } from "@/models/useMaskerStore";
+import ImgLayer from "./ImgLayer";
+import POILayer from "./POILayer";
+import MaskLayer from "./MaskLayer";
+import { getDistance } from "@/lib/utils";
+import ProvinceLayer from "./ProvinceLayer";
 
-import 'mapbox-gl/dist/mapbox-gl.css';
-import '@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css';
-import DrawControl from './DrawControl';
+import "mapbox-gl/dist/mapbox-gl.css";
+import "@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css";
+import DrawControl from "./DrawControl";
 
 const VITE_MAP_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -85,8 +85,10 @@ const CoreMap = (props: ICoreMapProps) => {
     });
   }, []);
   useEffect(() => {
-    console.log('onUpdate===', features);
-    setCustomFeatures(Object.values(features).map((item) => item.geometry));
+    console.log("onUpdate===", features);
+    setCustomFeatures(
+      Object.values(features).map((item: any) => item.geometry)
+    );
   }, [features]);
 
   const onSelect = useCallback(
@@ -94,7 +96,7 @@ const CoreMap = (props: ICoreMapProps) => {
       if (e.features.length === 0) return;
       setSelectCustom(e.features[0]);
 
-      console.log('onSelect===', e.features);
+      console.log("onSelect===", e.features);
     },
     [mapRef]
   );
@@ -109,7 +111,7 @@ const CoreMap = (props: ICoreMapProps) => {
             getDistance(lnglat.lat, lnglat.lng, p.centroid[1], p.centroid[0]) <=
             p.radius
         );
-        console.log('onclick map target ===', target);
+        console.log("onclick map target ===", target);
 
         setSelectCircle(target);
         return;
@@ -122,12 +124,12 @@ const CoreMap = (props: ICoreMapProps) => {
     const map = mapRef.current.getMap();
     const layers = map.getStyle().layers;
     //waterway-polygons-heatmap-building
-    map.moveLayer('heatmap', 'waterway');
-    map.moveLayer('district', 'waterway');
-    map.moveLayer('building', 'heatmap');
+    map.moveLayer("heatmap", "waterway");
+    map.moveLayer("district", "waterway");
+    map.moveLayer("building", "heatmap");
     // map.moveLayer('polygons', 'waterway');
 
-    console.log('onload===layers', layers);
+    console.log("onload===layers", layers);
 
     // map.loadImage(LocationIcon, (error, image) => {
     //   if (error) throw error;
@@ -146,7 +148,7 @@ const CoreMap = (props: ICoreMapProps) => {
 
     const map = mapRef.current?.getMap();
     if (features.length > 0) {
-      map.getCanvas().style.cursor = 'pointer';
+      map.getCanvas().style.cursor = "pointer";
       const properties = features[0].properties;
       const cityName = properties.name; // 城市名称
 
@@ -156,7 +158,7 @@ const CoreMap = (props: ICoreMapProps) => {
         data: cityName,
       });
     } else {
-      map.getCanvas().style.cursor = '';
+      map.getCanvas().style.cursor = "";
     }
   }
 
@@ -176,7 +178,7 @@ const CoreMap = (props: ICoreMapProps) => {
           setViewState(evt.viewState);
           // console.log(evt.viewState);
         }}
-        interactiveLayerIds={['district']}
+        interactiveLayerIds={["district"]}
         onMouseMove={(evt) => {
           // setHoverCoord(evt.lngLat);
           // changeLocation(evt.lngLat);
@@ -188,7 +190,7 @@ const CoreMap = (props: ICoreMapProps) => {
         onClick={onClick}
         // onMouseEnter={onMouseEnter}
         // onMouseLeave={onMouseLeave}
-        onStyleData={() => { }}
+        onStyleData={() => {}}
       >
         <ImgLayer id="heatmap" imgUrl={heatMapImg} />
         <MaskLayer />
