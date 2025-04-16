@@ -28,9 +28,15 @@ jobs:
       matrix:
         node-version: [18.18.2]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    env:
+      VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }} # 使用仓库 Secrets
+      VITE_API_URL: ${{ secrets.VITE_API_URL }} # 使用仓库 Secrets
 
     steps:
       - uses: actions/checkout@main
+      - run: |
+          echo "VITE_MAPBOX_TOKEN=$VITE_MAPBOX_TOKEN" >> .env  # 写入 .env 文件
+          echo "VITE_API_URL=$VITE_API_URL" >> .env  # 写入 .env 文件
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
