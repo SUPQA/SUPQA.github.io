@@ -1,5 +1,4 @@
 import { Message } from "@arco-design/web-react";
-import { EventSourceMessage } from "@microsoft/fetch-event-source";
 import axios, { AxiosRequestConfig } from "axios";
 
 export const WEB_DOMAIN =
@@ -13,7 +12,7 @@ interface AxiosRequestCustomConfig extends AxiosRequestConfig {
 }
 
 const agent = axios.create({
-  timeout: 600000, // 配置超时时间
+  timeout: 10000, // 配置超时时间
   baseURL: WEB_DOMAIN,
   // headers: { Accept: "application/json" },
 });

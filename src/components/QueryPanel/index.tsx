@@ -76,6 +76,7 @@ const QueryPanel = (props) => {
     (eventData, controller) => {
       const event = eventData.event;
       const data = eventData.data;
+      if (event === "error") throw new Error(data);
 
       console.log("🚨 === ", eventData);
       try {
@@ -121,16 +122,19 @@ const QueryPanel = (props) => {
       } catch (error) {
         console.log("🚨 === JSON.parse Error", error);
         controller.abort();
+        setLoading({ loading: false });
+        throw new Error(data);
       }
     },
     [setLoading, setInfo, doneCallback]
   );
 
+  const controller = new AbortController();
+
   const handleSend = useCallback(async () => {
     setLoading({ loading: true });
     hypo.current = "";
     answer.current = "";
-    const controller = new AbortController();
     await fetchEventSource(`${WEB_DOMAIN}/pipeline/measure`, {
       method: "POST",
       signal: controller.signal,
@@ -139,11 +143,14 @@ const QueryPanel = (props) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ question: question, k: topK }),
-      openWhenHidden: true,
+      // openWhenHidden: true, //页面退至后台保持连接
       onmessage: (event) => parseStream(event, controller),
       onerror(err) {
-        console.log("🚨 === error from server", err);
+        Message.error(err.toString());
+        console.log("❌ === error from server", err);
         controller.abort();
+        setLoading({ loading: false });
+        throw err; // 停止重试
       },
     });
   }, [question, parseStream]);
