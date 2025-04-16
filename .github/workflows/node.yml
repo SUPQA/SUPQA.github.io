@@ -6,7 +6,7 @@ name: Node & NEXT CI
 # 触发workflow的条件
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -30,7 +30,7 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
