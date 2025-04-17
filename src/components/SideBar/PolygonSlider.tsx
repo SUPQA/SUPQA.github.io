@@ -5,16 +5,16 @@ import React, {
   useMemo,
   useRef,
   useState,
-} from 'react';
-import * as d3 from 'd3';
+} from "react";
+import * as d3 from "d3";
 import {
   findClosestPointOnPolygonEdges,
   getLegendXY,
   getSubPolygon,
   getVertices,
   isPointInsidePolygon,
-} from '@/lib/util4PolygonSlider';
-import { useGlobalStore } from '@/models/useGlobalStore';
+} from "@/lib/util4PolygonSlider";
+import { useGlobalStore } from "@/models/useGlobalStore";
 
 export interface IPolygonSliderRef {
   stepCallback: (index: number) => void;
@@ -91,33 +91,33 @@ const PolygonSlider = React.forwardRef(
       });
 
       const axis = d3.select(axisRef.current);
-      axis.selectAll('*').remove();
+      axis.selectAll("*").remove();
       axisData.forEach((ad, index) => {
-        const wrapG = axis.append('g').attr('class', 'axis-wrap');
+        const wrapG = axis.append("g").attr("class", "axis-wrap");
         const measure = data?.[index];
         const children = measureCategory?.[measure];
         const color = colorScale?.(measure);
         // console.log('🚨 ~ ad:', measure, children, color);
-
+        if (!children) return;
         wrapG
-          .append('g')
+          .append("g")
           .call(d3.axisTop(x).ticks(3).tickSizeInner(5))
-          .attr('color', '#b2b2b2');
+          .attr("color", "#b2b2b2");
         wrapG
-          .append('g')
-          .selectAll('circle')
+          .append("g")
+          .selectAll("circle")
           .data(children)
           .enter()
-          .append('circle')
-          .attr('r', 4)
-          .attr('fill', (d) => colorScale?.(d.category))
-          .attr('stroke', '#b2b2b2')
-          .attr('stroke-width', 1)
-          .attr('transform', (d) => `translate(${x(d.value)} 0)`);
+          .append("circle")
+          .attr("r", 4)
+          .attr("fill", (d) => colorScale?.(d.category))
+          .attr("stroke", "#b2b2b2")
+          .attr("stroke-width", 1)
+          .attr("transform", (d) => `translate(${x(d.value)} 0)`);
 
         // 整体位移
         wrapG.attr(
-          'transform',
+          "transform",
           `translate(${ad.x} ${ad.y}) rotate(${ad.angle})`
         );
       });
@@ -130,20 +130,20 @@ const PolygonSlider = React.forwardRef(
       const averageSub = getSubPolygon(circleCenter, points);
 
       const legend = d3.select(legendRef.current);
-      legend.selectAll('*').remove();
+      legend.selectAll("*").remove();
       averageSub.forEach((ad, index) => {
         const coordAngle = getLegendXY(circleCenter, ad.centroid, r + 5);
         legend
-          .append('g')
+          .append("g")
           .call((g) =>
             g
-              .append('text')
+              .append("text")
               .text(() => data?.[index])
-              .attr('text-anchor', 'middle')
-              .attr('font-size', 14)
+              .attr("text-anchor", "middle")
+              .attr("font-size", 14)
           )
           .attr(
-            'transform',
+            "transform",
             `translate(${coordAngle[0]} ${coordAngle[1]}) rotate(${coordAngle[2]})`
           );
       });
@@ -155,30 +155,30 @@ const PolygonSlider = React.forwardRef(
 
       // console.log('drawPolygonLine===', colorScale?.('livability'));
 
-      polygons.selectAll('*').remove();
+      polygons.selectAll("*").remove();
       polygons
-        .selectAll('path')
+        .selectAll("path")
         .data(subPolygon)
         .enter()
-        .append('path')
-        .attr('d', (d) => line(d.vertices))
+        .append("path")
+        .attr("d", (d) => line(d.vertices))
         // .attr('opacity', 0.8)
-        .style('fill', (d, index) => colorScale?.(data?.[index]) ?? '#fff');
+        .style("fill", (d, index) => colorScale?.(data?.[index]) ?? "#fff");
       // .style('stroke', '#000');
 
       const labels = d3.select(labelRef.current);
-      labels.selectAll('*').remove();
+      labels.selectAll("*").remove();
       labels
-        .selectAll('text')
+        .selectAll("text")
         .data(subPolygon)
         .enter()
         .filter((d) => d.percent > 0)
-        .append('text')
+        .append("text")
         .text((d) => `${d.percent} %`)
-        .attr('font-size', 16)
-        .attr('font-weight', 700)
-        .attr('x', (d) => d.centroid[0] - 20)
-        .attr('y', (d) => d.centroid[1]);
+        .attr("font-size", 16)
+        .attr("font-weight", 700)
+        .attr("x", (d) => d.centroid[0] - 20)
+        .attr("y", (d) => d.centroid[1]);
     }, [polygonRef, subPolygon, data]);
 
     useEffect(() => {
@@ -202,7 +202,7 @@ const PolygonSlider = React.forwardRef(
 
     useEffect(() => {
       const handle = d3.select(handleRef.current);
-      handle.call(d3.drag().on('drag', drag));
+      handle.call(d3.drag().on("drag", drag));
     }, []);
 
     useImperativeHandle(ref, () => ({
@@ -229,7 +229,7 @@ const PolygonSlider = React.forwardRef(
           cx={handlePos[0]}
           cy={handlePos[1]}
           fill="#000"
-          style={{ cursor: 'pointer' }}
+          style={{ cursor: "pointer" }}
         />
       </svg>
     );

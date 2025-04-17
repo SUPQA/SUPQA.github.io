@@ -1,4 +1,4 @@
-import { Coordinate, useMapStore } from "@/models/useMapStore";
+import { Coordinate } from "@/models/useGlobalStore";
 import React, { useEffect, useState } from "react";
 import {
   CircleLayer,

@@ -20,10 +20,14 @@ function App() {
 
       <Spin
         tip={
-          <>
-            <div>This may take a while...</div>
-            <div>{loading.tip}</div>
-          </>
+          typeof loading.tip === "string" ? (
+            <>
+              <div>This may take a while...</div>
+              <div>{loading.tip}</div>
+            </>
+          ) : (
+            loading.tip
+          )
         }
         size={48}
         loading={loading.loading}

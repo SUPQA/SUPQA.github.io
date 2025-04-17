@@ -1,15 +1,15 @@
 import React, { useCallback, useEffect, useRef } from 'react';
 import ImageCircleCrop from '../pureComps/ImageCircleCrop';
-import { useMapStore } from '@/models/useMapStore';
 import { GEOTYPE, useMaskerStore } from '@/models/useMaskerStore';
 import { Button, Descriptions, Tag } from '@arco-design/web-react';
 import PinFill from '@/assets/icons/pinFill.svg';
 import ImageCrop from '../pureComps/ImageCrop';
 import { latlng2pixel } from '@/lib/utils';
+import { useGlobalStore } from '@/models/useGlobalStore';
 
 const AreaList = () => {
   const containerRef = useRef<HTMLDivElement>();
-  const { heatMapImg } = useMapStore();
+  const { heatMapImg } = useGlobalStore();
   const {
     circleList,
     selectCircle,
@@ -66,7 +66,6 @@ const AreaList = () => {
       type: 'Custom',
     };
   });
-  console.log(customPolygons);
 
   return (
     maskerType === GEOTYPE.Community && (

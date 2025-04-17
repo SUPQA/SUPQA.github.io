@@ -1,33 +1,32 @@
-import React, { useCallback, useEffect, useState, useMemo } from 'react';
-import { Layer, Marker, Popup, Source } from 'react-map-gl';
-import type { CircleLayer, FillLayer, LineLayer } from 'react-map-gl';
+import React, { useCallback, useEffect, useState, useMemo } from "react";
+import { Layer, Marker, Popup, Source } from "react-map-gl";
+import type { CircleLayer, FillLayer, LineLayer } from "react-map-gl";
 
-import * as d3 from 'd3';
-import { DSVRowArray } from 'd3';
-import KDBush from 'kdbush';
+import * as d3 from "d3";
+import { DSVRowArray } from "d3";
+import KDBush from "kdbush";
 
-import { Coordinate, useMapStore } from '@/models/useMapStore';
-import { GEOTYPE, useMaskerStore } from '@/models/useMaskerStore';
-import _ from 'lodash';
-import { CategoryItems, throttleTime } from '@/config';
-import * as turf from '@turf/turf';
-import { getDistance } from '@/lib/utils';
-import { throttle } from 'lodash';
-import { postSelectCircle } from '@/apis';
-import mapboxgl from 'mapbox-gl';
-import { useGlobalStore } from '@/models/useGlobalStore';
+import { GEOTYPE, useMaskerStore } from "@/models/useMaskerStore";
+import _ from "lodash";
+import { CategoryItems, throttleTime } from "@/config";
+import * as turf from "@turf/turf";
+import { getDistance } from "@/lib/utils";
+import { throttle } from "lodash";
+import { postSelectCircle } from "@/apis";
+import mapboxgl from "mapbox-gl";
+import { useGlobalStore } from "@/models/useGlobalStore";
 
 const scatterLayer: CircleLayer = {
-  id: 'scatter',
-  type: 'circle',
-  source: 'point-data',
+  id: "scatter",
+  type: "circle",
+  source: "point-data",
   layout: {},
   paint: {
-    'circle-color': ['get', 'color'],
-    'circle-radius': 5,
-    'circle-stroke-color': '#fff',
-    'circle-stroke-width': 1,
-    'circle-opacity': 1,
+    "circle-color": ["get", "color"],
+    "circle-radius": 5,
+    "circle-stroke-color": "#fff",
+    "circle-stroke-width": 1,
+    "circle-opacity": 1,
   },
 };
 
@@ -48,42 +47,47 @@ const POILayer = (props: any) => {
   const {
     selectCircle,
     POILanguage,
+    POIData,
     POIFilterTarget,
     maskerType,
     selectCustom,
     setPOIPoint,
+    setPOIData,
   } = useMaskerStore();
-  const { map } = useMapStore();
-  const {  colorScale } = useGlobalStore();
+  const { colorScale, map } = useGlobalStore();
 
   const popup = new mapboxgl.Popup({
     closeButton: false,
     offset: [0, -10],
-    className: 'poi-popup',
+    className: "poi-popup",
   });
 
   useEffect(() => {
     d3.csv(
-      POILanguage === 'en' ? '/data/POI/poi_en.csv' : '/data/POI/poi_cn.csv'
+      POILanguage === "en" ? "/data/POI/poi_en.csv" : "/data/POI/poi_cn.csv"
     ).then((data: DSVRowArray) => {
-      const indexPoints: IPointsIndex[] = data.map((item, index) => {
-        return {
-          lat: +item['wgs84_lat'],
-          lng: +item['wgs84_lng'],
-          category: item['category'].toLowerCase(),
-          class: item['class'].toLowerCase(),
-          color: colorScale?.(item['category'].toLowerCase()),
-          name: item['name'],
-          pointIdx: index,
-        };
-      });
-      const pointsIndex = new KDBush(indexPoints.length);
-
-      indexPoints.map((p) => pointsIndex.add(p.lng, p.lat));
-      pointsIndex.finish();
-      setPoints(indexPoints);
-      setPointsIndex(pointsIndex);
+      setPOIData(data);
     });
+  }, [POILanguage]);
+
+  useEffect(() => {
+    const indexPoints: IPointsIndex[] = POIData.map((item, index) => {
+      return {
+        lat: +item["wgs84_lat"],
+        lng: +item["wgs84_lng"],
+        category: item["category"].toLowerCase(),
+        class: item["class"].toLowerCase(),
+        color: colorScale?.(item["category"].toLowerCase()),
+        name: item["name"],
+        pointIdx: index,
+      };
+    });
+    const pointsIndex = new KDBush(indexPoints.length);
+
+    indexPoints.map((p) => pointsIndex.add(p.lng, p.lat));
+    pointsIndex.finish();
+    setPoints(indexPoints);
+    setPointsIndex(pointsIndex);
   }, [POILanguage, colorScale]);
 
   const updateScatterThrottled = useCallback(
@@ -97,7 +101,7 @@ const POILayer = (props: any) => {
       const centerPoint = turf.point(selectCircle.centroid);
       const bufferPolygon = turf.buffer(centerPoint, selectCircle.radius, {
         steps: 64,
-        units: 'meters',
+        units: "meters",
       });
       const bounds = turf.bbox(bufferPolygon);
 
@@ -124,18 +128,19 @@ const POILayer = (props: any) => {
         });
 
       setPOIPoint(allDisP);
-      console.log('selectPOI====', allDisP);
-
-      const pToShow = allDisP.filter((p) => {
-        if (
-          POIFilterTarget !== 'all' &&
-          p.category !== POIFilterTarget &&
-          p.class !== POIFilterTarget
-        ) {
-          return false;
-        }
-        return true;
-      });
+      const pToShow =
+        POIFilterTarget === "all"
+          ? allDisP
+          : allDisP.filter((p) => {
+              if (
+                p.category !== POIFilterTarget &&
+                p.class !== POIFilterTarget
+              ) {
+                return false;
+              }
+              return true;
+            });
+      // console.log("pToShow====", POIFilterTarget, pToShow);
 
       setPointsShow(pToShow);
     }, throttleTime),
@@ -149,7 +154,7 @@ const POILayer = (props: any) => {
     throttle(() => {
       if (!pointsIndex) return;
       if (!selectCustom) {
-        setPointsShow([]);
+        // setPointsShow([]);
         return;
       }
 
@@ -168,7 +173,7 @@ const POILayer = (props: any) => {
         .map((p) => points[p])
         .filter((p) => {
           if (
-            POIFilterTarget !== 'all' &&
+            POIFilterTarget !== "all" &&
             p.category !== POIFilterTarget &&
             p.class !== POIFilterTarget
           ) {
@@ -188,32 +193,29 @@ const POILayer = (props: any) => {
     updateCustomThrottled();
   }, [updateCustomThrottled]);
 
-  // useEffect(() => {
-  //   updateCustomThrottled();
-  // }, [updateCustomThrottled]);
-
-  const getPointsSource = useMemo<any>(() => {
+  const getPointsSource = useMemo(() => {
     var features = pointsShow.map(function (point) {
       return {
-        type: 'Feature',
+        type: "Feature",
         properties: {
           color: point.color,
           title: point.name,
         },
         geometry: {
-          type: 'Point',
+          type: "Point",
           coordinates: [point.lng, point.lat],
         },
       };
     });
+
     return {
-      type: 'FeatureCollection',
+      type: "FeatureCollection",
       features: features,
     };
   }, [pointsShow]);
 
   useEffect(() => {
-    map?.on('mousemove', 'scatter', function (e) {
+    map?.on("mousemove", "scatter", function (e) {
       var feature = e.features[0];
       popup
         .setLngLat(e.lngLat)
@@ -221,7 +223,7 @@ const POILayer = (props: any) => {
         .addTo(map);
     });
 
-    map?.on('mouseleave', 'scatter', function () {
+    map?.on("mouseleave", "scatter", function () {
       popup.remove();
     });
   }, [map]);

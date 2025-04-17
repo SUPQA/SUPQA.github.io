@@ -7,7 +7,14 @@ import React, {
 } from "react";
 import { CategoryImgRootUrl, ClassImgRootUrl } from "@/config";
 import { useMaskerStore } from "@/models/useMaskerStore";
-import { Button, Grid, Radio, Select, Slider } from "@arco-design/web-react";
+import {
+  Button,
+  Grid,
+  Message,
+  Radio,
+  Select,
+  Slider,
+} from "@arco-design/web-react";
 import PolygonSlider from "./PolygonSlider";
 import { IconCheckCircle, IconCopy } from "@arco-design/web-react/icon";
 import { hexToRgb } from "@/lib/utils";
@@ -19,10 +26,9 @@ const Col = Grid.Col;
 const Option = Select.Option;
 
 const SideBar = () => {
-  // const [topK, setTopK] = useState<number>(5);
   const [category, setCategory] = useState<any>({});
   const [selectCat, setSelectCat] = useState<string>();
-  const { info, hypo, colorScale, topK, setLoading, setTopK } =
+  const { info, hypo, colorScale, topK, setLoading, setTopK, handleSend } =
     useGlobalStore();
   const { POILanguage, setPOIFilterTarget, setPOILanguage } = useMaskerStore();
 
@@ -121,6 +127,19 @@ const SideBar = () => {
     setLoading({ loading: true });
   }, []);
 
+  const handleCopy = useCallback(() => {
+    const textToCopy = hypo || info?.hypoDoc;
+
+    navigator.clipboard
+      .writeText(textToCopy)
+      .then(() => {
+        Message.success("复制成功");
+      })
+      .catch(() => {
+        Message.error("复制失败");
+      });
+  }, [hypo, info?.hypoDoc]);
+
   useEffect(() => {
     fetch("data/category.json")
       .then((response) => response.json())
@@ -157,7 +176,7 @@ const SideBar = () => {
               <Slider
                 value={topK}
                 min={1}
-                max={10}
+                max={5}
                 step={1}
                 onChange={(value) => setTopK(value as number)}
                 style={{ color: "red" }}
@@ -221,27 +240,20 @@ const SideBar = () => {
               type="primary"
               size="mini"
               className="control-btn"
-              // shape="round"
               icon={<IconCopy />}
+              onClick={handleCopy}
             >
               &nbsp;Copy
             </Button>
-
-            {/* <Button
-            type="text"
-            size="mini"
-            className="control-btn"
-            shape="circle"
-            icon={<IconRefresh fontSize={16} />}
-          /> */}
           </div>
         </div>
         <div
-          className=" flex flex-wrap  overflow-y-auto mt-[12px] max-h-[300px]"
+          className=" flex flex-wrap  overflow-y-auto mt-[12px] max-h-[300px] text-sm"
           style={{ scrollbarWidth: "none" }}
         >
-          {info
-            ? info.hypoDoc?.split(" ")?.map((text, index) => (
+          {hypo
+            ? hypo
+            : info?.hypoDoc?.split(" ")?.map((text, index) => (
                 <span
                   key={index}
                   style={{
@@ -250,8 +262,7 @@ const SideBar = () => {
                 >
                   {text}&nbsp;
                 </span>
-              ))
-            : hypo}
+              ))}
           <div ref={messagesEndRef} />
         </div>
       </div>

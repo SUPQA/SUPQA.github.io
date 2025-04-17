@@ -1,11 +1,4 @@
-import React, {
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
-import { useMapStore } from "@/models/useMapStore";
+import React, { useCallback, useEffect, useState } from "react";
 import { Button, Input, Message, Tooltip } from "@arco-design/web-react";
 import {
   IconDoubleLeft,
@@ -16,15 +9,12 @@ import {
   IconSkipNextFill,
   IconSkipPreviousFill,
 } from "@arco-design/web-react/icon";
-import { getTreeStep, getDistrictArea, getSalientAreas } from "@/apis";
-import { getAllNodes } from "@/lib/utils";
+import { getDistrictArea, getSalientAreas } from "@/apis";
 import NestedTree from "./NestedTree";
 import { GEOTYPE, useMaskerStore } from "@/models/useMaskerStore";
-import { CategoryItems, throttleTime } from "@/config";
+import { throttleTime } from "@/config";
 import { throttle } from "lodash";
 import { useGlobalStore } from "@/models/useGlobalStore";
-import { WEB_DOMAIN } from "@/apis/request";
-import { fetchEventSource } from "@microsoft/fetch-event-source";
 
 const ICON_FONT_SIZE = 24;
 
@@ -32,23 +22,18 @@ const QueryPanel = (props) => {
   const {} = props;
   const [question, setQuestion] = useState<string>();
   const [stepList, setStepList] = useState<any>([]);
+  const [historyList, setHistoryList] = useState<any>([]);
   const [current, setCurrent] = useState(-1);
-  const hypo = useRef("");
-  const answer = useRef("");
 
   const {
     info,
     colorScale,
     topK,
     treeData,
-    setHypo,
-    setLoading,
-    setTreeData,
-    setInfo,
-    setColorScale,
     setSelectStep,
+    handleSend,
+    changeHeatImgUrl,
   } = useGlobalStore();
-  const { changeHeatImgUrl } = useMapStore();
   const {
     maskerType,
     setMaskerType,
@@ -57,103 +42,140 @@ const QueryPanel = (props) => {
     setDistrictArea,
   } = useMaskerStore();
 
-  const doneCallback = useCallback(async (data) => {
-    // setInfo(data);
-    changeHeatImgUrl({ uid: data.uid, measure: "answer" });
+  // const doneCallback = useCallback(async (data) => {
+  //   setInfo(data);
+  //   let supHistory = JSON.parse(localStorage.getItem("supHistory")) ?? [];
+  //   if (supHistory.findIndex((item) => item.uid === data.uid) === -1) {
+  //     supHistory.unshift({ uid: data.uid, q: data.question, date: data.date });
+  //   }
+  //   localStorage.setItem("supHistory", JSON.stringify(supHistory));
+  //   setHistoryList(supHistory);
 
-    const treeData = await getTreeStep(data.uid);
-    const allNode = getAllNodes([treeData]);
+  //   changeHeatImgUrl({ uid: data.uid, measure: "answer" });
 
-    const nameList = allNode.map((item) => item.name);
-    setColorScale(
-      new Set([...data.measureList, ...nameList, ...CategoryItems])
-    );
-    setTreeData(treeData);
-    setStepList(allNode);
-  }, []);
+  //   const treeData = await getTreeStep(data.uid);
+  //   const allNode = getAllNodes([treeData]);
 
-  const parseStream = useCallback(
-    (eventData, controller) => {
-      const event = eventData.event;
-      const data = eventData.data;
-      if (event === "error") throw new Error(data);
+  //   const nameList = allNode.map((item) => item.name);
+  //   setColorScale(
+  //     new Set([...data.measureList, ...nameList, ...CategoryItems])
+  //   );
+  //   setTreeData(treeData);
+  //   setStepList(allNode);
+  // }, []);
 
-      console.log("🚨 === ", eventData);
-      try {
-        switch (event) {
-          case "done":
-            const parsedData2 = JSON.parse(data);
-            doneCallback(parsedData2);
-            setLoading({ loading: false });
-            break;
-          case "hypoStart":
-            document.getElementById("main").classList.add("loading");
-            document
-              .getElementById("hypo-panel")
-              .classList.add("loading-highlight");
-            break;
-          case "hypoDone":
-            document.getElementById("main").classList.remove("loading");
-            document
-              .getElementById("hypo-panel")
-              .classList.remove("loading-highlight");
-            break;
-          case "hypo":
-            console.log("🚨 ===  hypo", data);
-            hypo.current = hypo.current + data;
-            setHypo(hypo.current);
-            break;
-          case "prompt":
-            console.log("🚨 ===  prompt", data);
-            answer.current = answer.current + data;
-            setLoading({ loading: true, tip: answer.current });
-            break;
-          // case "info":
-          //   const parsedData = JSON.parse(data);
-          //   setInfo(parsedData);
-          //   setLoading({
-          //     loading: false,
-          //     tip: "measure done but img generating",
-          //   });
-          //   break;
-          default:
-            return data;
-        }
-      } catch (error) {
-        console.log("🚨 === JSON.parse Error", error);
-        controller.abort();
-        setLoading({ loading: false });
-        throw new Error(data);
-      }
+  // const parseStream = useCallback(
+  //   (eventData, controller) => {
+  //     const event = eventData.event;
+  //     const data = eventData.data;
+  //     if (event === "error") throw new Error(data);
+
+  //     console.log("🚨 === ", eventData);
+  //     try {
+  //       switch (event) {
+  //         case "done":
+  //           const parsedData2 = JSON.parse(data);
+  //           doneCallback(parsedData2);
+  //           setLoading({ loading: false });
+  //           break;
+  //         case "hypoStart":
+  //           document.getElementById("main").classList.add("loading");
+  //           document
+  //             .getElementById("hypo-panel")
+  //             .classList.add("loading-highlight");
+  //           break;
+  //         case "hypoDone":
+  //           document.getElementById("main").classList.remove("loading");
+  //           document
+  //             .getElementById("hypo-panel")
+  //             .classList.remove("loading-highlight");
+  //           break;
+  //         case "hypo":
+  //           console.log("🚨 ===  hypo", data);
+  //           hypo.current = hypo.current + data;
+  //           setHypo(hypo.current);
+  //           break;
+  //         case "prompt":
+  //           console.log("🚨 ===  prompt", data);
+  //           answer.current = answer.current + data;
+  //           setLoading({ loading: true, tip: answer.current });
+  //           break;
+  //         case "map":
+  //           console.log("🚨 ===  map", data);
+  //           let mapData = JSON.parse(data);
+  //           setLoading({
+  //             loading: true,
+  //             tip: (
+  //               <>
+  //                 <div>Processing map... This may take 30 - 60 s</div>
+  //                 <Progress
+  //                   size="large"
+  //                   steps={mapData.total}
+  //                   percent={
+  //                     (parseInt(mapData.index) / parseInt(mapData.total)) * 100
+  //                   }
+  //                   strokeWidth={8}
+  //                   trailColor="rgb(var(--primary-2))"
+  //                 />
+  //               </>
+  //             ),
+  //           });
+  //           break;
+  //         default:
+  //           return data;
+  //       }
+  //     } catch (error) {
+  //       console.log("🚨 === JSON.parse Error", error);
+  //       controller.abort();
+  //       setLoading({ loading: false });
+  //       throw new Error(data);
+  //     }
+  //   },
+  //   [setLoading, setInfo, doneCallback]
+  // );
+
+  // const controller = new AbortController();
+
+  // const handleSend = useCallback(
+  //   async (uid?: string) => {
+  //     setLoading({ loading: true });
+
+  //     await fetchEventSource(`${WEB_DOMAIN}/pipeline/measure`, {
+  //       method: "POST",
+  //       signal: controller.signal,
+  //       headers: {
+  //         Accept: "text/event-stream",
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify({
+  //         uid: uid,
+  //         question: question,
+  //         k: topK,
+  //         hypo: hypo.current,
+  //         answer: answer.current,
+  //       }),
+  //       openWhenHidden: true, //页面退至后台保持连接
+  //       onopen: async (response) => {},
+  //       onmessage: (event) => parseStream(event, controller),
+  //       onerror(err) {
+  //         Message.error(err.toString());
+  //         console.log("❌ === error from server", err);
+  //         controller.abort();
+  //         setLoading({ loading: false });
+  //         throw err; // 停止重试
+  //       },
+  //     });
+  //   },
+  //   [question, parseStream]
+  // );
+
+  const callback = useCallback(
+    (history, allNode) => {
+      setHistoryList(history);
+      setStepList(allNode);
     },
-    [setLoading, setInfo, doneCallback]
+    [setHistoryList, setStepList]
   );
-
-  const controller = new AbortController();
-
-  const handleSend = useCallback(async () => {
-    setLoading({ loading: true });
-    hypo.current = "";
-    answer.current = "";
-    await fetchEventSource(`${WEB_DOMAIN}/pipeline/measure`, {
-      method: "POST",
-      signal: controller.signal,
-      headers: {
-        Accept: "text/event-stream",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ question: question, k: topK }),
-      // openWhenHidden: true, //页面退至后台保持连接
-      onmessage: (event) => parseStream(event, controller),
-      onerror(err) {
-        Message.error(err.toString());
-        console.log("❌ === error from server", err);
-        controller.abort();
-        setLoading({ loading: false });
-        throw err; // 停止重试
-      },
-    });
-  }, [question, parseStream]);
 
   const handleClick = useCallback(
     (index: number) => {
@@ -203,9 +225,27 @@ const QueryPanel = (props) => {
     [handleClick]
   );
 
+  const onHistoryClick = useCallback(
+    (history) => {
+      handleSend({
+        uid: history.uid,
+        question,
+        topK,
+        callback,
+      });
+    },
+    [question, topK, handleSend, callback]
+  );
+
   useEffect(() => {
     stepList && current >= 0 && setSelectStep(stepList?.[current]);
   }, [current, stepList]);
+
+  useEffect(() => {
+    const supHistory = JSON.parse(localStorage.getItem("supHistory")) ?? [];
+
+    setHistoryList(supHistory);
+  }, []);
 
   return (
     <div className="queryPanel">
@@ -219,13 +259,27 @@ const QueryPanel = (props) => {
           onChange={(value: string) => {
             setQuestion(value);
           }}
+          onPressEnter={(e) => {
+            e.preventDefault();
+            handleSend({
+              question,
+              topK,
+              callback,
+            });
+          }}
         />
         <Button
           type="text"
           className="control-btn"
           shape="circle"
           icon={<IconSend fontSize={24} />}
-          onClick={handleSend}
+          onClick={() =>
+            handleSend({
+              question,
+              topK,
+              callback,
+            })
+          }
         />
       </div>
       {treeData && (
@@ -324,6 +378,21 @@ const QueryPanel = (props) => {
               );
             })}
           </div>
+        </div>
+      )}
+
+      {historyList.length > 0 && (
+        <div className="max-h-[160px] overflow-y-auto overflow-x-hidden ">
+          {historyList.map((item) => (
+            <div
+              key={item.uid}
+              className="panel mb-1 p-1 flex justify-between items-center cursor-pointer"
+              onClick={() => onHistoryClick(item)}
+            >
+              <span className="truncate flex-1">{item.q} </span>
+              <span className="text-xs text-gray-400">{item.date}</span>
+            </div>
+          ))}
         </div>
       )}
     </div>

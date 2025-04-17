@@ -12,7 +12,7 @@ interface AxiosRequestCustomConfig extends AxiosRequestConfig {
 }
 
 const agent = axios.create({
-  timeout: 10000, // 配置超时时间
+  timeout: 600000, // 配置超时时间
   baseURL: WEB_DOMAIN,
   // headers: { Accept: "application/json" },
 });

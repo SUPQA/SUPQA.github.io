@@ -47,7 +47,7 @@ const BottomPanel = () => {
             onChange={(value) => setMaskerType(value)}
           >
             <Radio value={GEOTYPE.City}>City</Radio>
-            <Radio value={GEOTYPE.District}>District</Radio>
+            {/* <Radio value={GEOTYPE.District}>District</Radio> */}
             <Radio value={GEOTYPE.Community}>Community</Radio>
           </RadioGroup>
           {/* <div className="flex -translate-x-2/4 absolute left-2/4 font-bold  truncate flex-1 max-w-[550px]"> */}
@@ -88,7 +88,7 @@ const BottomPanel = () => {
           id={'container-timeline'}
           className="timeline flex-1 my-2 mx-6 flex flex-col justify-between h-20"
         >
-          <POILineChart width={900} data={poiCount} colorScale={colorScale} />
+          <POILineChart width={800} data={poiCount} colorScale={colorScale} />
         </div>
       </div>
       <DownloadSvgModal visible={visible} setVisible={setVisible} />

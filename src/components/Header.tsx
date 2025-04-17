@@ -1,16 +1,12 @@
-import React from 'react';
-import { useMapStore } from '@/models/useMapStore';
+import React from "react";
 
 const Header = (props) => {
   const { hoverCoord } = props;
-  const geoState = useMapStore();
   // const { location } = geoState;
 
   return (
     <div className="header w-full">
-      <div className="font-bold text-lg">
-        SUPQA
-      </div>
+      <div className="font-bold text-lg">SUPQA</div>
       <span className="text-sm ml-6 font-light">
         LLM-based Geo-Visualization for Subjective Urban Performance
         Question-Answering

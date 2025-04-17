@@ -1,20 +1,9 @@
 import React, { useCallback, useMemo, useState } from "react";
 import { useEffect, useRef } from "react";
-import Map, {
-  MapProvider,
-  FullscreenControl,
-  GeolocateControl,
-  NavigationControl,
-  Popup,
-  Source,
-  Layer,
-  Marker,
-  useControl,
-} from "react-map-gl";
+import Map, { NavigationControl } from "react-map-gl";
 import mapboxgl from "mapbox-gl";
 import MapboxDraw from "@mapbox/mapbox-gl-draw";
 import { MAP_STYLE } from "@/config";
-import { useMapStore } from "@/models/useMapStore";
 import { GEOTYPE, useMaskerStore } from "@/models/useMaskerStore";
 import ImgLayer from "./ImgLayer";
 import POILayer from "./POILayer";
@@ -25,6 +14,7 @@ import ProvinceLayer from "./ProvinceLayer";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css";
 import DrawControl from "./DrawControl";
+import { useGlobalStore } from "@/models/useGlobalStore";
 
 const VITE_MAP_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -47,7 +37,7 @@ const CoreMap = (props: ICoreMapProps) => {
     data: {},
   });
 
-  const { heatMapImg, setMap } = useMapStore();
+  const { heatMapImg, setMap } = useGlobalStore();
   const {
     circleList,
     setSelectCircle,

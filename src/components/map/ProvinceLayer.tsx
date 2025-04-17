@@ -1,4 +1,3 @@
-import { useMapStore } from '@/models/useMapStore';
 import React, { memo, useCallback, useEffect, useMemo, useState } from 'react';
 import districtData from '../../../public/data/district.json';
 import { Layer, FillLayer, Source, Popup } from 'react-map-gl';
@@ -6,6 +5,7 @@ import chroma from 'chroma-js';
 import { LineLayer } from 'mapbox-gl';
 import { getDistrictArea } from '@/apis';
 import { GEOTYPE, useMaskerStore } from '@/models/useMaskerStore';
+import { useGlobalStore } from '@/models/useGlobalStore';
 
 const COLOR_SCALE = ['#E2F0D9', '#385723'];
 
@@ -14,7 +14,7 @@ const ProvinceLayer = (props) => {
   // const [data, setData] = useState<any>();
   // const [colorDomain, setColorDomain] = useState([0, 100]);
   const { maskerType, districtArea } = useMaskerStore();
-  const { map } = useMapStore();
+  const { map } = useGlobalStore();
 
   const fillLayer: FillLayer = useMemo(() => {
     let colorInterpolate = chroma.scale(COLOR_SCALE).domain([0, 100]);

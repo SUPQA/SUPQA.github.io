@@ -3,7 +3,7 @@ import { Layer, Source } from 'react-map-gl';
 import type { CircleLayer, FillLayer, LineLayer } from 'react-map-gl';
 import { GEOTYPE, useMaskerStore } from '@/models/useMaskerStore';
 import * as turf from '@turf/turf';
-import { useMapStore } from '@/models/useMapStore';
+import { useGlobalStore } from '@/models/useGlobalStore';
 
 const CircleBorderLayer: LineLayer = {
   id: 'circle-border',
@@ -34,7 +34,7 @@ const MaskLayer = (props: any) => {
   const [combCircleCoord, setCombCircleCoord] = useState([]);
   const { circleList, selectCircle, maskerType, customFeatures } =
     useMaskerStore();
-  const { map } = useMapStore();
+  const { map } = useGlobalStore();
 
   const getMasksLayer = useMemo<any>(() => {
     return {

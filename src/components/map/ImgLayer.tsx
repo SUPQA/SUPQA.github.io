@@ -1,4 +1,3 @@
-import { useMapStore } from '@/models/useMapStore';
 import React, { memo, useEffect } from 'react';
 import { FillLayer, Layer, RasterLayer, Source } from 'react-map-gl';
 import { heatImgSize, imgLatLngBound, mapTiles } from '@/config';
