@@ -136,6 +136,7 @@ export const useGlobalStore = create<GlobalStore>((set) => ({
         heatMapImg: `${getHeatmapURL}?${new URLSearchParams({
           uid: data.uid,
           measure: "answer",
+          date: data.date,
         })}`,
       }));
 
@@ -153,6 +154,8 @@ export const useGlobalStore = create<GlobalStore>((set) => ({
         switch (event) {
           case "done":
             const parsedData2 = JSON.parse(data);
+            console.log("🚨 === done", parsedData2);
+
             doneCallback(parsedData2);
             set((state) => ({ loading: { ...state.loading, loading: false } }));
             break;

@@ -37,7 +37,7 @@ interface IPolygonSliderProps {
 
 const PolygonSlider = React.forwardRef(
   (props: IPolygonSliderProps, ref: any) => {
-    const { width, height, colorScale, vertex = 5 } = props;
+    const { width, height, colorScale, vertex = 3 } = props;
     const { info, measureCategory } = useGlobalStore();
     const data = info?.measureList;
 
@@ -47,6 +47,7 @@ const PolygonSlider = React.forwardRef(
     const axisRef = useRef(null);
     const labelRef = useRef(null);
     const legendRef = useRef(null);
+    const weightRef = useRef(null);
 
     const [handlePos, setHandlePos] = useState<number[]>([
       width / 2,
@@ -70,10 +71,11 @@ const PolygonSlider = React.forwardRef(
     const singleS = 2 * r * Math.sin(Math.PI / vertex);
     const x = d3.scaleLinear().domain([0, 1]).range([0, singleS]);
 
-    const subPolygon = useMemo(
-      () => getSubPolygon(handlePos, points),
-      [handlePos, points]
-    );
+    const subPolygon = useMemo(() => {
+      const subData = getSubPolygon(handlePos, points);
+      weightRef.current = subData;
+      return subData;
+    }, [handlePos, points]);
 
     // * Edge axis
     useEffect(() => {
@@ -150,10 +152,8 @@ const PolygonSlider = React.forwardRef(
     }, [colorScale, data, points]);
 
     // * Sub Polygon Line
-    const drawPolygonLine = useCallback(() => {
+    useEffect(() => {
       const polygons = d3.select(polygonRef.current);
-
-      // console.log('drawPolygonLine===', colorScale?.('livability'));
 
       polygons.selectAll("*").remove();
       polygons
@@ -181,10 +181,6 @@ const PolygonSlider = React.forwardRef(
         .attr("y", (d) => d.centroid[1]);
     }, [polygonRef, subPolygon, data]);
 
-    useEffect(() => {
-      drawPolygonLine();
-    }, [drawPolygonLine]);
-
     // * Handle Drag
     const drag = useCallback((event) => {
       const x = event.x;
@@ -195,18 +191,25 @@ const PolygonSlider = React.forwardRef(
       if (!isInPolygon) {
         endPos = findClosestPointOnPolygonEdges(endPos, points);
       }
-      console.log(endPos);
+      // console.log(endPos);
 
       setHandlePos(endPos);
     }, []);
 
     useEffect(() => {
       const handle = d3.select(handleRef.current);
-      handle.call(d3.drag().on("drag", drag));
+      handle.call(
+        d3
+          .drag()
+          .on("drag", drag)
+          .on("end", () => {
+            console.log("✋ ~ drag end:", weightRef.current);
+          })
+      );
     }, []);
 
     useImperativeHandle(ref, () => ({
-      // delKeyFrame,
+      weightRef,
       // selectRange,
     }));
 

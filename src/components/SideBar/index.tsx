@@ -16,9 +16,10 @@ import {
   Slider,
 } from "@arco-design/web-react";
 import PolygonSlider from "./PolygonSlider";
-import { IconCheckCircle, IconCopy } from "@arco-design/web-react/icon";
+import { IconCopy, IconSend } from "@arco-design/web-react/icon";
 import { hexToRgb } from "@/lib/utils";
 import { useGlobalStore } from "@/models/useGlobalStore";
+import { postReGenerate } from "@/apis";
 
 const RadioGroup = Radio.Group;
 const Row = Grid.Row;
@@ -28,11 +29,22 @@ const Option = Select.Option;
 const SideBar = () => {
   const [category, setCategory] = useState<any>({});
   const [selectCat, setSelectCat] = useState<string>();
-  const { info, hypo, colorScale, topK, setLoading, setTopK, handleSend } =
-    useGlobalStore();
+  const [tuningType, setTuningType] = useState<number>(1);
+  const {
+    info,
+    hypo,
+    colorScale,
+    topK,
+    setInfo,
+    setLoading,
+    setTopK,
+    handleSend,
+  } = useGlobalStore();
   const { POILanguage, setPOIFilterTarget, setPOILanguage } = useMaskerStore();
+  const { changeHeatImgUrl } = useGlobalStore();
 
   const messagesEndRef = useRef(null);
+  const polygonRef = useRef(null);
 
   const colors = useMemo(() => {
     if (!colorScale) return;
@@ -123,9 +135,20 @@ const SideBar = () => {
     );
   }, [selectCat]);
 
-  const onGenerate = useCallback(() => {
+  const onGenerate = useCallback(async () => {
     setLoading({ loading: true });
-  }, []);
+    let weight = info.weightList;
+    if (tuningType) {
+      weight = polygonRef.current.weightRef.current.map(
+        (item) => item.percent / 100
+      );
+      // console.log(weight);
+    }
+    const newInfo = await postReGenerate({ uid: info?.uid, weight: weight });
+    changeHeatImgUrl({ uid: info.uid, measure: "answer", date: newInfo.date });
+    setInfo(newInfo);
+    setLoading({ loading: false });
+  }, [info, tuningType]);
 
   const handleCopy = useCallback(() => {
     const textToCopy = hypo || info?.hypoDoc;
@@ -206,30 +229,62 @@ const SideBar = () => {
       <div className="px-4 flex flex-col">
         <div className="subtitle">
           Measure Fine-tuning
-          <div>
-            <Button
-              type="primary"
-              size="mini"
-              icon={<IconCheckCircle />}
-              onClick={() => {
-                onGenerate();
-              }}
-            >
-              &nbsp;Generate
-            </Button>
-          </div>
+          <RadioGroup
+            type="button"
+            size="mini"
+            value={tuningType}
+            onChange={(value) => setTuningType(value)}
+          >
+            <Radio value={0}>S</Radio>
+            <Radio value={1}>P</Radio>
+          </RadioGroup>
+        </div>
+        <div className="ml-auto">
+          <Button
+            type="text"
+            size="mini"
+            icon={<IconSend />}
+            onClick={() => {
+              onGenerate();
+            }}
+          >
+            &nbsp;Re-Generate
+          </Button>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <PolygonSlider
-            width={250}
-            height={250}
-            vertex={
-              topK < info?.measureList?.length
-                ? topK
-                : info?.measureList?.length
-            }
-            colorScale={colorScale}
-          />
+          {tuningType ? (
+            <PolygonSlider
+              ref={polygonRef}
+              width={250}
+              height={250}
+              vertex={
+                topK < info?.measureList?.length
+                  ? topK
+                  : info?.measureList?.length
+              }
+              colorScale={colorScale}
+            />
+          ) : (
+            <div className="flex flex-col gap-4 w-full">
+              {info?.measureList?.map((item, index) => (
+                <Row className="grid-gutter-demo" gutter={24}>
+                  <Col span={6} className="font-semibold">
+                    {item}
+                  </Col>
+                  <Col span={16}>
+                    <Slider
+                      value={topK}
+                      min={1}
+                      max={5}
+                      step={1}
+                      onChange={(value) => setTopK(value as number)}
+                    />
+                  </Col>
+                  <Col span={2}>{topK}</Col>
+                </Row>
+              ))}
+            </div>
+          )}
         </div>
       </div>
       <div id="hypo-panel" className="px-4 flex flex-col">

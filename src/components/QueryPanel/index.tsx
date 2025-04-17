@@ -382,7 +382,7 @@ const QueryPanel = (props) => {
       )}
 
       {historyList.length > 0 && (
-        <div className="max-h-[160px] overflow-y-auto overflow-x-hidden ">
+        <div className="historyPanel max-h-[160px] overflow-y-auto overflow-x-hidden ">
           {historyList.map((item) => (
             <div
               key={item.uid}

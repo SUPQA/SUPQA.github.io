@@ -323,3 +323,8 @@ button {
   z-index: 101; /* 高于遮罩层 */
   background-color: white;
 }
+
+.historyPanel {
+  scrollbar-width: thin;
+  direction: rtl; // 滚动条放左侧
+}

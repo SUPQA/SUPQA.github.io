@@ -27,3 +27,8 @@ export function postSelectCircle(req: any): Promise<any> {
   const uri = `/pipeline/selectCircle`;
   return post(uri, req);
 }
+
+export function postReGenerate(req: any): Promise<any> {
+  const uri = `/pipeline/reGenerate`;
+  return post(uri, req);
+}

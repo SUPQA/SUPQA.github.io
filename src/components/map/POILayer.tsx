@@ -71,6 +71,7 @@ const POILayer = (props: any) => {
   }, [POILanguage]);
 
   useEffect(() => {
+    if (!POIData) return;
     const indexPoints: IPointsIndex[] = POIData.map((item, index) => {
       return {
         lat: +item["wgs84_lat"],
